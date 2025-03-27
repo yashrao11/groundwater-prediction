@@ -1,14 +1,12 @@
 # Groundwater Level Prediction System 🌊
 
-A machine learning-based web application to predict groundwater levels for selected stations in India. This system aggregates historical groundwater data, fills in missing data for specific periods, and forecasts future water levels (e.g., for 2025-2030) with interactive visualizations.
+A machine learning-based web application that predicts groundwater levels for selected stations in India. The system aggregates historical data (filling in missing years) and forecasts future groundwater levels (2025-2030) with interactive visualizations and an explanatory process flowchart.
 
 ---
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Model and Methodology](#model-and-methodology)
@@ -21,56 +19,16 @@ A machine learning-based web application to predict groundwater levels for selec
 
 ## Introduction
 
-Groundwater is a critical resource for agriculture, drinking water, and industrial processes. However, over-extraction, climate change, and poor water management have led to alarming levels of depletion. This project aims to predict future groundwater levels by leveraging historical data and machine learning models.
-
-The system allows users to:
-- **Select a station code** from a dropdown list.
-- View **historical trends** (aggregated yearly, including filled data for missing years between 2019 and 2024).
-- See a **forecast** of groundwater levels for the next 6 years (2025-2030).
-- Understand the process through an interactive flowchart.
+Groundwater is a critical resource for agriculture, drinking water, and industry, yet its depletion due to over-extraction and climate change has become a serious global concern. This project develops a **Groundwater Level Prediction System** that uses historical monitoring data and machine learning to forecast future groundwater levels. Users can select a station from a dropdown menu to view historical trends (with missing data for 2019–2024 filled in) and obtain a forecast for 2025–2030. The interactive dashboard also displays an easy-to-understand flowchart of the prediction process.
 
 ---
 
-## Features
+## Usage
 
-- **User-Friendly Interface:**  
-  Interactive web application built using Streamlit with attractive UI elements and custom styling.
-
-- **Historical Data Aggregation:**  
-  Aggregates daily groundwater data into yearly averages and fills missing data for the period 2019–2024 using a baseline model.
-
-- **Future Forecasting:**  
-  Predicts groundwater levels for the years 2025-2030 using a trained Linear Regression model.
-
-- **Interactive Visualizations:**  
-  Displays historical and forecasted data in dynamic plots along with an explanatory flowchart.
-
-- **Dropdown Station Selector:**  
-  Allows users to select the exact station code from a list to view station-specific data.
-
----
-
-## Installation
-
-### Prerequisites
-
-- Python 3.7 or above
-- Git
-
-### Dependencies
-
-All necessary dependencies are listed in the `requirements.txt` file. They include:
-
-- streamlit
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-
-### Steps to Install
+### Running the App Locally
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/yourusername/groundwater_prediction_system.git
-   cd groundwater_prediction_system
+   cd groundwater_prediction_system/groundwater_app
