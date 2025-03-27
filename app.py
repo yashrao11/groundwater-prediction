@@ -37,7 +37,7 @@ Select your station code from the dropdown below to view historical trends (incl
 # ----------------------------
 @st.cache_data(show_spinner=True)
 def load_data():
-    data_path = r"C:\Users\DC\Desktop\PROJECT\groundwater_app\gwl_daily.csv"  # Adjust path if needed
+    data_path = "gwl_daily.csv"  # Adjust path     if needed
     df = pd.read_csv(data_path)
     # Convert measurement date to datetime and extract date features
     df["MSMT_DATE"] = pd.to_datetime(df["MSMT_DATE"])
