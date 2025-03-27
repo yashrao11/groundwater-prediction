@@ -1,5 +1,6 @@
-flask
+streamlit
+pandas
 numpy
-joblib
+matplotlib
+seaborn
 scikit-learn
-gunicorn
