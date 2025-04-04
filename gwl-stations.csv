@@ -1,0 +1,657 @@
+Station_Code,Well_Name,LATITUDE,LONGITUDE,Elevation,COUNTY_NAME,BASIN_CODE,BASIN_NAME,Well_Depth,WELL_USE,WELL_TYPE
+01N04E36Q001M,MRL-2W,37.88605556,-121.48183333,6.9,San Joaquin,5-022.15,Tracy,81.0,Observation,Single Well
+01N04E36Q002M,MRL-3W,37.88486111,-121.48216667,-1.0,San Joaquin,5-022.15,Tracy,34.0,Observation,Single Well
+01N04E36Q003M,MLNO-2,37.88602778,-121.48191667,8.6,San Joaquin,5-022.15,Tracy,20.0,Observation,Single Well
+01N04E36Q004M,MLNO-1,37.88502778,-121.482,15.9,San Joaquin,5-022.15,Tracy,20.0,Observation,Single Well
+01S04E28F001M,GLWL-2W,37.81855556,-121.54433333,16.1,San Joaquin,5-022.15,Tracy,25.0,Observation,Single Well
+01S04E28F002M,GLWL-1W,37.82041667,-121.54444444,2.2,San Joaquin,5-022.15,Tracy,89.0,Observation,Single Well
+01S04E28F003M,GLNO-1,37.81855556,-121.54380556,15.4,San Joaquin,5-022.15,Tracy,25.0,Observation,Single Well
+01S04E28F004M,GLNO-2,37.82033333,-121.54361111,19.3,San Joaquin,5-022.15,Tracy,25.0,Observation,Single Well
+01S04E28P001M,ORL-5W,37.81083333,-121.54263889,6.7,San Joaquin,5-022.15,Tracy,51.0,Observation,Single Well
+01S04E28P002M,ORL-1W,37.81030556,-121.54488889,13.7,San Joaquin,5-022.15,Tracy,106.0,Observation,Single Well
+01S04E28P003M,OLNO-4,37.8105,-121.54219444,16.9,San Joaquin,5-022.15,Tracy,20.0,Observation,Single Well
+01S04E28P004M,OLNO-3,37.80969444,-121.54277778,14.1,San Joaquin,5-022.15,Tracy,20.0,Observation,Single Well
+01S06E09E001M,UR-3A,37.86251731,-121.32102875,8.93,San Joaquin,5-022.15,Tracy,17.0,Observation,Single Well
+01S06E09E002M,UR-3B,37.86251189,-121.32158937,6.51,San Joaquin,5-022.15,Tracy,20.0,Observation,Single Well
+01S06E16D002M,UR-2A,37.85137325,-121.32365659,11.67,San Joaquin,5-022.15,Tracy,20.0,Observation,Single Well
+01S06E16D003M,UR-2B,37.85122454,-121.324648,11.25,San Joaquin,5-022.15,Tracy,21.0,Observation,Single Well
+01S06E29R001M,UR-1A,37.81110136,-121.32564733,15.383,San Joaquin,5-022.15,Tracy,28.0,Observation,Single Well
+01S06E29R002M,UR-1B,37.81260856,-121.3256613,15.363,San Joaquin,5-022.15,Tracy,25.0,Observation,Single Well
+01S06E29R003M,UR-1C,37.81306824,-121.32579517,15.333,San Joaquin,5-022.15,Tracy,40.0,Observation,Single Well
+03N04E11L001M,ND69,38.120444444,-121.50941666,-4.48,San Joaquin,5-022.01,Eastern San Joaquin,25.0,Observation,Single Well
+04N04E01N001M,ND-21B,38.21975,-121.4975,0.0,San Joaquin,5-022.01,Eastern San Joaquin,35.0,Observation,Single Well
+04N04E02B001M,ND34,38.232889,-121.507028,9.63,Sacramento,5-021.66,Solano,20.0,Observation,Single Well
+04N04E10Q001M,ND39MA,38.20441667,-121.5280556,-3.37,Sacramento,5-021.66,Solano,100.0,Observation,Part of a nested/multi-completion well
+04N04E10Q002M,ND39MB,38.20441667,-121.5280556,-3.37,Sacramento,5-021.66,Solano,100.0,Observation,Part of a nested/multi-completion well
+04N04E12M001M,ND38MA,38.2108889,-121.5020556,-2.58,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+04N04E12M002M,ND38MB,38.2108889,-121.5020556,-2.58,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+04N04E13A001M,ND23MA,38.20469444,-121.4808889,3.52,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+04N04E13A002M,ND23MB,38.20469444,-121.4808889,3.52,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+04N04E27F001M,ND45,38.16880456,-121.5287087,3.52,San Joaquin,5-022.01,Eastern San Joaquin,25.0,Observation,Single Well
+04N04E34N001M,ND48MA,38.14825,-121.53608333,-7.38,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+04N04E34N002M,ND48MB,38.14825,-121.53608333,-7.38,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+04N05E07N002M,ND-22,38.20625,-121.47936,3.52,San Joaquin,5-022.01,Eastern San Joaquin,20.0,Observation,Part of a nested/multi-completion well
+05N03E09L001M,PI-5A,38.29020604,-121.64733086,17.61,Solano,5-021.66,Solano,43.0,Observation,Single Well
+05N03E09L002M,PI-5B,38.29019763,-121.64736277,17.97,Solano,5-021.66,Solano,82.0,Observation,Single Well
+05N03E15F001M,Ryer MW-7,38.27965087,-121.63236835,-1.76,Solano,5-021.66,Solano,40.0,Observation,Single Well
+05N03E15F002M,Ryer MW-8,38.27964821,-121.63238779,-1.62,Solano,5-021.66,Solano,15.0,Observation,Single Well
+05N03E15P001M,Ryer MW-5,38.27280057,-121.62985774,-2.91,Solano,5-021.66,Solano,40.0,Observation,Single Well
+05N03E15P002M,Ryer MW-6,38.27280145,-121.62988366,-3.17,Solano,5-021.66,Solano,15.0,Observation,Single Well
+05N03E16A001M,Ryer MW-9,38.28453651,-121.64187693,-1.73,Solano,5-021.66,Solano,40.0,Observation,Single Well
+05N03E16A002M,Ryer MW-10,38.28453651,-121.64187693,-1.26,Solano,5-021.66,Solano,14.0,Observation,Single Well
+05N03E16B001M,PI-6A,38.28471043,-121.64425711,16.41,Solano,5-021.66,Solano,31.0,Observation,Single Well
+05N03E16B002M,PI-6B,38.28473692,-121.64425299,16.45,Solano,5-021.66,Solano,61.0,Observation,Single Well
+05N03E16H001M,PI-7A,38.27892112,-121.6403016,15.87,Solano,5-021.66,Solano,27.0,Observation,Single Well
+05N03E16H002M,PI-7B,38.27893819,-121.64032833,15.94,Solano,5-021.66,Solano,62.0,Observation,Single Well
+05N03E16J001M,Ryer MW-3,38.27417177,-121.63988802,0.93,Solano,5-021.66,Solano,40.0,Observation,Single Well
+05N03E16J002M,Ryer MW-4,38.27417072,-121.63990616,0.82,Solano,5-021.66,Solano,15.0,Observation,Single Well
+05N03E16R001M,Ryer MW-11,38.2711299,-121.64191448,27.11,Solano,5-021.66,Solano,60.0,Observation,Single Well
+05N03E16R002M,PI-8A,38.27267165,-121.64241576,15.7,Solano,5-021.66,Solano,27.0,Observation,Single Well
+05N03E16R003M,PI-8B,38.2726972,-121.64239963,15.85,Solano,5-021.66,Solano,61.0,Observation,Single Well
+05N03E20B001M,PI-3A,38.27028472,-121.66134915,13.85,Solano,5-021.66,Solano,27.0,Observation,Single Well
+05N03E20B002M,PI-3B,38.27031076,-121.66134034,13.99,Solano,5-021.66,Solano,57.0,Observation,Single Well
+05N03E20B003M,PI-3C,38.27032465,-121.66133658,13.96,Solano,5-021.66,Solano,99.0,Observation,Single Well
+05N03E21G001M,PI-9A,38.26652,-121.6429347,15.34,Solano,5-021.66,Solano,26.0,Observation,Single Well
+05N03E21G002M,PI-9B,38.2665424,-121.64291408,15.33,Solano,5-021.66,Solano,61.0,Observation,Single Well
+05N03E21G003M,PI-9C,38.26656228,-121.64289534,15.33,Solano,5-021.66,Solano,98.0,Observation,Single Well
+05N03E21H001M,Ryer MW-1,38.26574339,-121.64080961,0.21,Solano,5-021.66,Solano,40.0,Observation,Single Well
+05N03E21H002M,Ryer MW-2,38.26574339,-121.64080961,0.36,Solano,5-021.66,Solano,14.0,Observation,Single Well
+05N03E21L001M,PI-10A,38.26230448,-121.65030442,14.79,Solano,5-021.66,Solano,33.0,Observation,Single Well
+05N03E21L002M,PI-10B,38.26230426,-121.65026937,14.85,Solano,5-021.66,Solano,60.0,Observation,Single Well
+05N03E29A001M,PI-1A,38.25305822,-121.65674016,14.81,Solano,5-021.66,Solano,28.0,Observation,Single Well
+05N03E29A002M,PI-1B,38.25307107,-121.65671031,14.79,Solano,5-021.66,Solano,76.0,Observation,Single Well
+05N03E29C001M,PI-2A,38.25323585,-121.66649661,12.95,Solano,5-021.66,Solano,23.0,Observation,Single Well
+05N03E29C002M,PI-2B,38.25325886,-121.66651141,12.85,Solano,5-021.66,Solano,64.0,Observation,Single Well
+05N04E36G001M,ND13MA,38.241083,-121.489389,2.62,Sacramento,5-021.65,South American,100.0,Observation,Part of a nested/multi-completion well
+05N04E36G002M,ND13MB,38.241083,-121.489389,2.62,Sacramento,5-021.65,South American,100.0,Observation,Part of a nested/multi-completion well
+05N05E29D003M,ND1,38.25925,-121.466361,11.02,San Joaquin,5-022.01,Eastern San Joaquin,20.0,Observation,Single Well
+05N05E30A004M,ND2,38.260361,-121.457639,7.92,Sacramento,5-021.65,South American,20.0,Observation,Single Well
+05N05E30K001M,ND-6MA,38.2511944,-121.47419,2.92,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+05N05E30K002M,ND-6MB,38.2511944,-121.47419,2.92,San Joaquin,5-022.01,Eastern San Joaquin,100.0,Observation,Part of a nested/multi-completion well
+07N02E35D001M,RD2068 MW-1A shallow,38.4159,-121.7303,33.0,Solano,5-021.66,Solano,43.0,Observation,Part of a nested/multi-completion well
+07N02E35D002M,RD2068 MW-1B middle,38.4159,-121.7303,33.0,Solano,5-021.66,Solano,243.0,Observation,Part of a nested/multi-completion well
+07N02E35D003M,RD2068 MW-1C deep,38.4159,-121.7303,33.0,Solano,5-021.66,Solano,445.0,Observation,Part of a nested/multi-completion well
+09N03E08C001M,CON P1 shallow,38.646422,-121.667487,27.5,Yolo,5-021.67,Yolo,90.0,Observation,Part of a nested/multi-completion well
+09N03E08C002M,CON P2 mid-shallow,38.646422,-121.667487,27.5,Yolo,5-021.67,Yolo,150.0,Observation,Part of a nested/multi-completion well
+09N03E08C003M,CON P3 middle-deep,38.646422,-121.667487,27.5,Yolo,5-021.67,Yolo,280.0,Observation,Part of a nested/multi-completion well
+09N03E08C004M,CON Ext and P4 deep,38.64643,-121.667384,27.5,Yolo,5-021.67,Yolo,545.0,Observation,Part of a nested/multi-completion well
+09N04E20N001M,Sac Bypass Shallow,38.606329,-121.560173,21.49,Yolo,5-021.67,Yolo,100.0,Observation,Part of a nested/multi-completion well
+09N04E20N002M,Sac Bypass Deep,38.606329,-121.560173,21.49,Yolo,5-021.67,Yolo,170.0,Observation,Part of a nested/multi-completion well
+09N07E02G001M,Glenn Drive Well,38.665,-121.1776,177.32,Sacramento,5-021.65,South American,101.0,Observation,Single Well
+10N03E10J500M,YBHC-3A1,38.73330602,-121.6338005,23.0,Yolo,5-021.67,Yolo,25.0,Observation,Single Well
+10N03E10J501M,YBHC-3A2,38.73330014,-121.6338001,23.0,Yolo,5-021.67,Yolo,60.0,Observation,Single Well
+10N03E10R500M,YBHC-3B2,38.73204742,-121.6329095,19.86,Yolo,5-021.67,Yolo,45.0,Observation,Single Well
+10N03E10R501M,YBHC-3B1,38.73203943,-121.6329094,19.85,Yolo,5-021.67,Yolo,25.0,Observation,Single Well
+10N03E11N500M,YBHC-3C1,38.73219789,-121.6298512,19.14,Yolo,5-021.67,Yolo,25.0,Observation,Single Well
+10N03E11N501M,YBHC-3C2,38.73221058,-121.6298509,19.14,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+10N03E15J500M,YBHC-4B1,38.71834519,-121.6337205,20.14,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+10N03E15J501M,YBHC-4B2,38.71835409,-121.6337212,20.16,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+10N03E15J502M,YBHC-4A1,38.7201817,-121.6349733,18.25,Yolo,5-021.67,Yolo,25.0,Observation,Single Well
+10N03E15J503M,YBHC-4A2,38.72017619,-121.6349744,18.25,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+10N03E15R500M,YBHC-4C1,38.71716281,-121.6323258,19.05,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+10N03E15R501M,YBHC-4C2,38.71716861,-121.6323345,19.09,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+10N03E22K500M,YBHC-5_1,38.706127042,-121.63866214,22.1,Yolo,5-021.67,Yolo,36.0,Observation,Single Well
+10N03E22K501M,YBHC-5_2,38.706135543,-121.638658592,22.1,Yolo,5-021.67,Yolo,60.0,Observation,Single Well
+10N03E22R500M,YBHC-9_2,38.7013656,-121.633121144,27.4,Yolo,5-021.67,Yolo,38.0,Observation,Single Well
+10N03E23D500M,YBHC-7_1,38.711088235,-121.629329062,22.1,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+10N03E23D501M,YBHC-7_2,38.711078597,-121.629320351,22.1,Yolo,5-021.67,Yolo,55.0,Observation,Single Well
+10N03E23E500M,YBHC-8_2,38.707251549,-121.631260455,24.0,Yolo,5-021.67,Yolo,62.0,Observation,Single Well
+10N03E23E501M,YBHC-8_1,38.707248995,-121.631252496,24.0,Yolo,5-021.67,Yolo,35.0,Observation,Single Well
+10N03E34C500M,YBHC-6A2,38.683714662,-121.643970137,22.3,Yolo,5-021.67,Yolo,60.0,Observation,Single Well
+10N03E34C501M,YBHC-6A1,38.683720156,-121.643970811,22.3,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+10N03E34C502M,YBHC-6B1,38.683826475,-121.642559513,23.2,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+10N03E34C503M,YBHC-6B2,38.683826453,-121.642552157,23.2,Yolo,5-021.67,Yolo,60.0,Observation,Single Well
+10N04E27R002M,AB-3 Deep,38.6869,-121.5221,27.34,Sacramento,5-021.64,North American,995.0,Observation,Part of a nested/multi-completion well
+10N04E27R003M,AB-3 Middle,38.6869,-121.5221,27.34,Sacramento,5-021.64,North American,500.0,Observation,Part of a nested/multi-completion well
+10N04E27R004M,AB-3 Shallow,38.6869,-121.5221,27.34,Sacramento,5-021.64,North American,220.0,Observation,Part of a nested/multi-completion well
+10N04E31M001M,AB-4 Deep,38.6783,-121.5943,16.78,Sacramento,5-021.64,North American,1080.0,Observation,Single Well
+10N04E31M002M,AB-4 Middle-Deep,38.6783,-121.5943,16.78,Sacramento,5-021.64,North American,815.0,Observation,Part of a nested/multi-completion well
+10N04E31M003M,AB-4 Middle-Shallow,38.6783,-121.5943,16.78,Sacramento,5-021.64,North American,410.0,Observation,Part of a nested/multi-completion well
+10N04E31M004M,AB-4 Shallow,38.6783,-121.5943,16.78,Sacramento,5-021.64,North American,200.0,Observation,Part of a nested/multi-completion well
+10N08E29J001M,East Natoma Well,38.6895,-121.1169,382.2,Sacramento,5-021.65,South American,85.0,Unknown,Single Well
+11N01E02D001M,LCB-13 Deep,38.8362,-121.8352,27.45,Yolo,5-021.67,Yolo,690.0,Observation,Part of a nested/multi-completion well
+11N01E02D002M,LCB-13 Middle,38.8362,-121.8352,27.45,Yolo,5-021.67,Yolo,480.0,Observation,Part of a nested/multi-completion well
+11N01E02D003M,LCB-13 Shallow,38.8362,-121.8352,27.45,Yolo,5-021.67,Yolo,190.0,Observation,Part of a nested/multi-completion well
+11N01E24Q004M,ZAM P1 deep,38.779387,-121.812395,41.8,Yolo,5-021.67,Yolo,809.0,Observation,Part of a nested/multi-completion well
+11N01E24Q005M,ZAM P2 middle-deep,38.779387,-121.812395,41.8,Yolo,5-021.67,Yolo,608.0,Observation,Part of a nested/multi-completion well
+11N01E24Q006M,ZAM P3 mid-shallow,38.779387,-121.812395,41.8,Yolo,5-021.67,Yolo,407.0,Observation,Part of a nested/multi-completion well
+11N01E24Q007M,ZAM P4 shallow,38.779387,-121.812395,41.8,Yolo,5-021.67,Yolo,220.0,Observation,Part of a nested/multi-completion well
+11N01E24Q008M,ZAM Ext,38.779855,-121.812422,42.0,Yolo,,,,,
+11N01E24Q500M,ZAM(R) P4 shallow,38.779435,-121.812369,44.81,Yolo,5-021.67,Yolo,205.0,Observation,Part of a nested/multi-completion well
+11N01E24Q501M,ZAM(R) P3 mid-shall,38.779435,-121.812369,44.63,Yolo,5-021.67,Yolo,390.0,Observation,Part of a nested/multi-completion well
+11N01E24Q502M,ZAM(R) P2 mid-deep,38.779435,-121.812369,44.47,Yolo,5-021.67,Yolo,615.0,Observation,Part of a nested/multi-completion well
+11N01E24Q503M,ZAM(R) P1 deep,38.779435,-121.812369,44.32,Yolo,5-021.67,Yolo,805.0,Observation,Part of a nested/multi-completion well
+11N02E05C002M,RGF Field 71-231,38.836091,-121.777839,25.48,Yolo,5-021.67,Yolo,231.0,Irrigation,Single Well
+11N02E05F001M,RGF Field 65,38.829343,-121.778414,27.38,Yolo,5-021.67,Yolo,400.0,Irrigation,Single Well
+11N03E02Q002M,SCMW-5A,38.82323563,-121.6076354,24.71,Sutter,5-021.64,North American,170.0,Observation,Part of a nested/multi-completion well
+11N03E02Q003M,SCMW-5B,38.82323563,-121.6076354,24.71,Sutter,5-021.64,North American,675.0,Observation,Part of a nested/multi-completion well
+11N03E02Q004M,SCMW-5C,38.82323563,-121.6076354,24.71,Sutter,5-021.64,North American,930.0,Observation,Part of a nested/multi-completion well
+11N03E02Q005M,SCMW-5D,38.82323563,-121.6076354,24.71,Sutter,5-021.64,North American,1225.0,Observation,Part of a nested/multi-completion well
+11N03E27N500M,YBHC-1B1,38.76279371,-121.6350118,31.44,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+11N03E27N501M,YBHC-1B2,38.76280858,-121.6350256,31.66,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+11N03E27N502M,YBHC-1C1,38.76297651,-121.6336021,32.59,Yolo,5-021.67,Yolo,34.0,Observation,Single Well
+11N03E27N503M,YBHC-1C2,38.76298264,-121.6336193,32.62,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+11N03E34D500M,YBHC-1A2,38.76265983,-121.6357555,29.1,Yolo,5-021.67,Yolo,45.0,Observation,Single Well
+11N03E34D501M,YBHC-1A1,38.76266402,-121.635755375,29.1,Yolo,5-021.67,Yolo,25.0,Observation,Single Well
+11N03E34N500M,YBHC-2B2,38.74854334,-121.6339328,29.36,Yolo,5-021.67,Yolo,55.0,Observation,Single Well
+11N03E34N501M,YBHC-2C1,38.74853201,-121.6334908,28.64,Yolo,5-021.67,Yolo,34.0,Observation,Single Well
+11N03E34N502M,YBHC-2C2,38.74853186,-121.6335054,28.71,Yolo,5-021.67,Yolo,55.0,Observation,Single Well
+11N03E34N503M,YBHC-2B1,38.74854175,-121.633923,29.29,Yolo,5-021.67,Yolo,30.0,Observation,Single Well
+11N03E34N504M,YBHC-2A2,38.74886151,-121.6348561,22.5,Yolo,5-021.67,Yolo,50.0,Observation,Single Well
+11N03E34N505M,YBHC-2A1,38.74886761,-121.6348567,22.5,Yolo,5-021.67,Yolo,25.0,Observation,Single Well
+11N03E34N506M,YBHC-L1,38.750678255,-121.634569697,44.389,Yolo,5-021.67,Yolo,135.0,Observation,Single Well
+11N04E04N001M,SUT P4 deep,38.823611,-121.543113,31.0,Sutter,5-021.64,North American,890.0,Observation,Part of a nested/multi-completion well
+11N04E04N002M,SUT P3 middle-deep,38.823611,-121.543113,31.0,Sutter,5-021.64,North American,305.0,Observation,Part of a nested/multi-completion well
+11N04E04N003M,SUT P2 mid-shallow,38.823611,-121.543113,31.0,Sutter,5-021.64,North American,195.0,Observation,Part of a nested/multi-completion well
+11N04E04N004M,SUT P1 shallow,38.823611,-121.543113,31.0,Sutter,5-021.64,North American,120.0,Observation,Part of a nested/multi-completion well
+11N04E04N005M,SUT Ext,38.823863,-121.543073,27.0,Sutter,,,,,
+12N01E07N001M,LCB-7 Deep,38.8965,-121.9139,26.57,Yolo,5-021.67,Yolo,718.0,Observation,Part of a nested/multi-completion well
+12N01E07N002M,LCB-7 Middle,38.8965,-121.9139,26.57,Yolo,5-021.67,Yolo,440.0,Observation,Part of a nested/multi-completion well
+12N01E07N003M,LCB-7 Shallow,38.8965,-121.9139,26.57,Yolo,5-021.67,Yolo,300.0,Observation,Part of a nested/multi-completion well
+12N01E14R001M,LCB-9 Deep,38.8813,-121.8219,29.55,Yolo,5-021.67,Yolo,545.0,Observation,Part of a nested/multi-completion well
+12N01E14R002M,LCB-9 Shallow,38.8813,-121.8219,29.55,Yolo,5-021.67,Yolo,250.0,Observation,Part of a nested/multi-completion well
+12N01E14R003M,LCB-9 Middle,38.8813,-121.8219,29.55,Yolo,5-021.67,Yolo,380.0,Observation,Part of a nested/multi-completion well
+12N01W04M001M,DWD MW-2A,38.916277,-121.987509,62.1,Yolo,5-021.67,Yolo,165.0,Observation,Part of a nested/multi-completion well
+12N01W04M002M,DWD MW-2B,38.916277,-121.987509,62.1,Yolo,5-021.67,Yolo,335.0,Observation,Part of a nested/multi-completion well
+12N01W04M003M,DWD MW-2C,38.916277,-121.987509,62.1,Yolo,5-021.67,Yolo,595.0,Observation,Part of a nested/multi-completion well
+12N01W15N005M,DWD MW-1A,38.88471,-121.966457,62.1,Yolo,5-021.67,Yolo,176.0,Observation,Part of a nested/multi-completion well
+12N01W15N006M,DWD MW-1B,38.88471,-121.966457,62.1,Yolo,5-021.67,Yolo,399.0,Observation,Part of a nested/multi-completion well
+12N01W15N007M,DWD MW-1C,38.88471,-121.966457,62.1,Yolo,5-021.67,Yolo,572.0,Observation,Part of a nested/multi-completion well
+12N02E21Q001M,SR-1A shallow,38.869027,-121.752499,32.71,Yolo,5-021.67,Yolo,68.0,Observation,Part of a nested/multi-completion well
+12N02E21Q002M,SR-1B middle,38.869027,-121.752499,32.71,Yolo,5-021.67,Yolo,279.0,Observation,Part of a nested/multi-completion well
+12N02E21Q003M,SR-1C deep,38.869027,-121.752499,32.71,Yolo,5-021.67,Yolo,573.0,Observation,Part of a nested/multi-completion well
+12N02E23H001M,SCMW-2A,38.876059,-121.709429,22.236,Sutter,5-021.62,Sutter,150.0,Observation,Part of a nested/multi-completion well
+12N02E23H002M,SCMW-2B,38.876059,-121.709429,22.236,Sutter,5-021.62,Sutter,300.0,Observation,Part of a nested/multi-completion well
+12N02E23H003M,SCMW-2C,38.876059,-121.709429,22.236,Sutter,5-021.62,Sutter,600.0,Observation,Part of a nested/multi-completion well
+12N02E23H004M,SCMW-2D,38.876059,-121.709429,22.236,Sutter,5-021.62,Sutter,705.0,Observation,Part of a nested/multi-completion well
+12N02E33P003M,RGF Field 93-360,38.83684,-121.758433,26.37,Yolo,5-021.67,Yolo,360.0,Irrigation,Single Well
+12N04E03N001M,AB-1 Deep,38.9116,-121.5238,48.96,Sutter,5-021.64,North American,980.0,Observation,Part of a nested/multi-completion well
+12N04E03N002M,AB-1 Middle-Deep,38.9116,-121.5238,48.96,Sutter,5-021.64,North American,710.0,Observation,Part of a nested/multi-completion well
+12N04E03N003M,AB-1 Middle-Shallow,38.9116,-121.5238,48.96,Sutter,5-021.64,North American,530.0,Observation,Part of a nested/multi-completion well
+12N04E03N004M,AB-1 Shallow,38.9116,-121.5238,48.96,Sutter,5-021.64,North American,190.0,Observation,Part of a nested/multi-completion well
+12N04E26J002M,AB-2 Deep,38.8594,-121.4885,51.62,Sutter,5-021.64,North American,700.0,Observation,Part of a nested/multi-completion well
+12N04E26J003M,AB-2 Middle,38.8594,-121.4885,51.62,Sutter,5-021.64,North American,500.0,Observation,Part of a nested/multi-completion well
+12N04E26J004M,AB-2 Shallow,38.8594,-121.4885,51.62,Sutter,5-021.64,North American,155.0,Observation,Part of a nested/multi-completion well
+13N01E21B002M,LCB-2 Middle,38.968914,-121.86529,27.55,Colusa,5-021.52,Colusa,522.0,Observation,Part of a nested/multi-completion well
+13N01E22A001M,LCB-3 Deep,38.96688,-121.843915,36.56,Colusa,5-021.52,Colusa,709.0,Observation,Part of a nested/multi-completion well
+13N01E22A002M,LCB-3 Shallow,38.96688,-121.843915,36.56,Colusa,5-021.52,Colusa,525.0,Observation,Part of a nested/multi-completion well
+13N01E24G002M,Flood MW-1A deep,38.9605,-121.8102,29.83,Sutter,5-021.62,Sutter,310.0,Observation,Part of a nested/multi-completion well
+13N01E24G003M,Flood MW-1B middle,38.9605,-121.8102,29.83,Sutter,5-021.62,Sutter,160.0,Observation,Part of a nested/multi-completion well
+13N01E24G004M,Flood MW-1C shallow,38.9605,-121.8102,29.83,Sutter,5-021.62,Sutter,100.0,Observation,Part of a nested/multi-completion well
+13N01W13P001M,LCB-1 Deep,38.969348,-121.925801,32.23,Colusa,5-021.52,Colusa,885.0,Observation,Part of a nested/multi-completion well
+13N01W13P002M,LCB-1 Middle,38.969348,-121.925801,32.23,Colusa,5-021.52,Colusa,480.0,Observation,Part of a nested/multi-completion well
+13N01W13P003M,LCB-1 Shallow,38.969348,-121.925801,32.23,Colusa,5-021.52,Colusa,291.0,Observation,Part of a nested/multi-completion well
+13N03E06A001M,SCMW-6A,39.00864169,-121.6718796,35.546,Sutter,5-021.62,Sutter,65.0,Observation,Part of a nested/multi-completion well
+13N03E06A002M,SCMW-6B,39.00864169,-121.6718796,35.546,Sutter,5-021.62,Sutter,175.0,Observation,Part of a nested/multi-completion well
+13N03E06A003M,SCMW-6C,39.00864169,-121.6718796,35.546,Sutter,5-021.62,Sutter,265.0,Observation,Part of a nested/multi-completion well
+13N03E26J002M,SCMW-4A,38.945159,-121.599153,37.081,Sutter,5-021.62,Sutter,175.0,Observation,Part of a nested/multi-completion well
+13N03E26J003M,SCMW-4B,38.945159,-121.599153,37.081,Sutter,5-021.62,Sutter,445.0,Observation,Part of a nested/multi-completion well
+13N03E26J004M,SCMW-4C,38.945159,-121.599153,37.081,Sutter,5-021.62,Sutter,610.0,Observation,Part of a nested/multi-completion well
+13N03E26J005M,SCMW-4D,38.945159,-121.599153,37.081,Sutter,5-021.62,Sutter,1005.0,Observation,Part of a nested/multi-completion well
+13N04E07L001M,YCWA-12,38.9868,-121.5739,67.8,Yuba,5-021.61,South Yuba,175.0,Observation,Single Well
+13N04E11J001M,ROG-1,38.9883,-121.4883,61.38,Sutter,5-021.61,South Yuba,360.0,Irrigation,Single Well
+13N04E11R002M,BR-1B middle-shallow,38.9857,-121.488,63.3,Sutter,5-021.61,South Yuba,98.0,Observation,Part of a nested/multi-completion well
+13N04E11R003M,BR-1C middle-deep,38.9857,-121.488,63.2,Sutter,5-021.61,South Yuba,245.0,Observation,Part of a nested/multi-completion well
+13N04E11R004M,BR-1D deep,38.9857,-121.488,63.1,Sutter,5-021.61,South Yuba,331.0,Observation,Part of a nested/multi-completion well
+13N04E11R005M,BR-1A shallow,38.9857,-121.488,63.4,Sutter,5-021.61,South Yuba,48.0,Observation,Part of a nested/multi-completion well
+13N04E17P500M,Plumas MW-01 S,38.970937,-121.555638,46.22,Yuba,5-021.61,South Yuba,100.0,Observation,Part of a nested/multi-completion well
+13N04E17P501M,Plumas MW-01 MS,38.970938,-121.555639,45.22,Yuba,5-021.61,South Yuba,170.0,Observation,Part of a nested/multi-completion well
+13N04E17P502M,Plumas MW-01 MD,38.970936,-121.555638,44.22,Yuba,5-021.61,South Yuba,355.0,Observation,Part of a nested/multi-completion well
+13N04E17P503M,Plumas MW-01 D,38.970936,-121.55564,43.22,Yuba,5-021.61,South Yuba,500.0,Observation,Part of a nested/multi-completion well
+13N09W03Q004M,TSS Kelsey Creek,39.000036,-122.843542,1354.62,Lake,5-015,Big Valley,220.0,Observation,Part of a nested/multi-completion well
+13N09W03Q005M,TSS Kelsey Creek-S,39.000036,-122.843542,1354.62,Lake,5-015,Big Valley,80.0,Observation,Part of a nested/multi-completion well
+13N11W17Q001M,SV-1,38.981237,-123.088911,520.0,Mendocino,1-053,Sanel Valley,109.0,Observation,Single Well
+13N11W19H001M,SV-2A,38.9722,-123.1033,495.0,Mendocino,1-053,Sanel Valley,44.0,Observation,Part of a nested/multi-completion well
+13N11W19H002M,SV-2B,38.9722,-123.1033,495.0,Mendocino,1-053,Sanel Valley,67.0,Observation,Part of a nested/multi-completion well
+13N14W11B001M,AV-1A,39.0047,-123.3685,400.0,Mendocino,1-019,Anderson Valley,48.0,Observation,Part of a nested/multi-completion well
+13N14W11B002M,AV-1B,39.0047,-123.3685,400.0,Mendocino,1-019,Anderson Valley,168.0,Observation,Part of a nested/multi-completion well
+14N01E35P001M,Screen: 985-995 ft,39.012435,-121.829041,46.88,Colusa,5-021.52,Colusa,1039.0,Observation,Part of a nested/multi-completion well
+14N01E35P002M,Screen: 545-705 ft,39.012435,-121.829041,46.88,Colusa,5-021.52,Colusa,736.0,Observation,Part of a nested/multi-completion well
+14N01E35P003M,Screen: 135-225 ft,39.012435,-121.829041,46.88,Colusa,5-021.52,Colusa,275.0,Observation,Part of a nested/multi-completion well
+14N01E35P004M,Screen: 50-60 ft,39.012435,-121.829041,46.88,Colusa,5-021.52,Colusa,71.0,Observation,Part of a nested/multi-completion well
+14N02E17C001M,SCMW-1A Shallow,39.06955,-121.77784,33.0,Sutter,5-021.62,Sutter,60.0,Observation,Part of a nested/multi-completion well
+14N02E17C002M,SCMW-1B Mid-Shallow,39.06955,-121.77784,33.0,Sutter,5-021.62,Sutter,245.0,Observation,Part of a nested/multi-completion well
+14N02E17C003M,SCMW-1C Mid-Deep,39.06955,-121.77784,33.0,Sutter,5-021.62,Sutter,425.0,Observation,Part of a nested/multi-completion well
+14N02E17C004M,SCMW-1D Deep,39.06955,-121.77784,33.0,Sutter,5-021.62,Sutter,755.0,Observation,Part of a nested/multi-completion well
+14N02E32D001M,SMWC-1A,39.0244,-121.7812,29.4,Sutter,5-021.62,Sutter,64.0,Observation,Part of a nested/multi-completion well
+14N02E32D002M,SMWC-1B,39.0244,-121.7812,29.4,Sutter,5-021.62,Sutter,210.0,Observation,Part of a nested/multi-completion well
+14N02E32D003M,SMWC-1C,39.0244,-121.7812,29.4,Sutter,5-021.62,Sutter,500.0,Observation,Part of a nested/multi-completion well
+14N02W22A002M,14N02W22A002M,39.05398,-122.06067,87.06,Colusa,5-021.52,Colusa,1050.0,Observation,Part of a nested/multi-completion well
+14N02W22A003M,14N02W22A003M,39.05398,-122.06067,86.9,Colusa,5-021.52,Colusa,950.0,Observation,Part of a nested/multi-completion well
+14N02W22A004M,14N02W22A004M,39.05398,-122.06067,86.825,Colusa,5-021.52,Colusa,620.0,Observation,Part of a nested/multi-completion well
+14N02W22A005M,14N02W22A005M,39.05398,-122.06067,86.69,Colusa,5-021.52,Colusa,320.0,Observation,Part of a nested/multi-completion well
+14N03E23D003M,FR-1A Shallow,39.045823,-121.611448,52.05,Sutter,5-021.62,Sutter,65.0,Observation,Part of a nested/multi-completion well
+14N03E23D004M,FR-1B Middle Shallow,39.045823,-121.611448,52.05,Sutter,5-021.62,Sutter,260.0,Observation,Part of a nested/multi-completion well
+14N03E23D005M,FR-1C Middle Deep,39.045823,-121.611448,52.05,Sutter,5-021.62,Sutter,689.0,Observation,Part of a nested/multi-completion well
+14N03E23D006M,FR-1D Deep,39.045823,-121.611448,50.73,Sutter,5-021.62,Sutter,1021.0,Observation,Part of a nested/multi-completion well
+14N07W19M002M,Screen: unknown,39.048,-122.6855,1733.84,Lake,5-016,High Valley,104.0,Residential,Single Well
+15N03W20Q001M,Screen: 370-410 ft,39.132998,-122.216434,128.56,Colusa,5-021.52,Colusa,424.0,Observation,Part of a nested/multi-completion well
+15N03W20Q002M,Screen: 130-160 ft,39.132998,-122.216434,128.56,Colusa,5-021.52,Colusa,170.0,Observation,Part of a nested/multi-completion well
+15N03W20Q003M,Screen: 30-80 ft,39.132998,-122.216434,128.56,Colusa,5-021.52,Colusa,82.0,Observation,Part of a nested/multi-completion well
+15N04E04R002M,YR-1A shallow,39.17588,-121.524015,88.07,Yuba,5-021.61,South Yuba,85.0,Observation,Part of a nested/multi-completion well
+15N04E04R003M,YR-1B middle-shallow,39.17588,-121.524015,88.07,Yuba,5-021.61,South Yuba,265.0,Observation,Part of a nested/multi-completion well
+15N04E04R004M,YR-1C middle-deep,39.17588,-121.524015,88.07,Yuba,5-021.61,South Yuba,465.0,Observation,Part of a nested/multi-completion well
+15N04E04R005M,YR-1D deep,39.17588,-121.524015,88.07,Yuba,5-021.61,South Yuba,625.0,Observation,Part of a nested/multi-completion well
+15N04E04R006M,YR-2,39.175737,-121.524076,88.07,Yuba,5-021.61,South Yuba,40.0,Observation,Single Well
+16N02W05B001M,Screen: 730-750 ft,39.275273,-122.105677,65.0,Colusa,5-021.52,Colusa,797.0,Observation,Part of a nested/multi-completion well
+16N02W05B002M,Screen: 462-473 ft,39.275273,-122.105677,65.0,Colusa,5-021.52,Colusa,535.0,Observation,Part of a nested/multi-completion well
+16N02W05B003M,Screen: 174-255 ft,39.275273,-122.105677,65.0,Colusa,5-021.52,Colusa,301.0,Observation,Part of a nested/multi-completion well
+16N02W05B004M,Screen: 461-771 ft,39.275247,-122.105576,65.0,Colusa,5-021.52,Colusa,790.0,Irrigation,Single Well
+16N03E17J001M,SCMW-3A Shallow,39.239358,-121.65086,77.354,Sutter,5-021.62,Sutter,85.0,Observation,Part of a nested/multi-completion well
+16N03E17J002M,SCMW-3B Mid-Shallow,39.239358,-121.65086,77.354,Sutter,5-021.62,Sutter,315.0,Observation,Part of a nested/multi-completion well
+16N03E17J003M,SCMW-3C Mid-Middle,39.239358,-121.65086,77.354,Sutter,5-021.62,Sutter,430.0,Observation,Part of a nested/multi-completion well
+16N03E17J004M,SCMW-3D Mid-Deep,39.239358,-121.65086,77.354,Sutter,5-021.62,Sutter,615.0,Observation,Part of a nested/multi-completion well
+16N03E17J005M,SCMW-3E Deep,39.239358,-121.65086,77.354,Sutter,5-021.62,Sutter,785.0,Observation,Part of a nested/multi-completion well
+16N03E36M001M,YCWA-01,39.1975,-121.594,68.0,Yuba,5-021.60,North Yuba,160.0,Observation,Single Well
+16N03W14H003M,Screen: 1370-1420 ft,39.241473,-122.153517,65.7,Colusa,5-021.52,Colusa,1481.0,Observation,Part of a nested/multi-completion well
+16N03W14H004M,Screen: 1140-1180 ft,39.241473,-122.153517,65.7,Colusa,5-021.52,Colusa,1236.0,Observation,Part of a nested/multi-completion well
+16N03W14H005M,Screen: 720-730 ft,39.241473,-122.153517,65.7,Colusa,5-021.52,Colusa,775.0,Observation,Part of a nested/multi-completion well
+16N03W14H006M,Screen: 295-305 ft,39.241473,-122.153517,65.7,Colusa,5-021.52,Colusa,378.0,Observation,Part of a nested/multi-completion well
+17N01E17F001M,Wild Goose Shallow,39.3257,-121.883,58.97,Butte,5-021.70,Butte,160.0,Observation,Part of a nested/multi-completion well
+17N01E17F002M,Wild Goose Inter.,39.32572,-121.882942,59.35,Butte,5-021.70,Butte,326.0,Observation,Part of a nested/multi-completion well
+17N01E17F003M,Wild Goose Deep,39.32572,-121.882942,59.35,Butte,5-021.70,Butte,556.0,Observation,Part of a nested/multi-completion well
+17N01E24A002M,Screen: 1063-1083 ft,39.31695,-121.800448,72.8,Butte,5-021.70,Butte,,Observation,Part of a nested/multi-completion well
+17N01E24A003M,Screen: 770-790 ft,39.31695,-121.800448,72.8,Butte,5-021.70,Butte,833.0,Observation,Part of a nested/multi-completion well
+17N01E24A004M,Screen: 371-440 ft,39.31695,-121.800448,72.8,Butte,5-021.70,Butte,480.0,Observation,Part of a nested/multi-completion well
+17N01E24A005M,Screen: 220-240 ft,39.31695,-121.800448,72.8,Butte,5-021.70,Butte,305.0,Observation,Part of a nested/multi-completion well
+17N01E24A006M,Screen: 45-55 ft,39.316922,-121.800448,72.8,Butte,5-021.70,Butte,75.0,Observation,Part of a nested/multi-completion well
+17N01W10A001M,Screen: 770-800 ft,39.343775,-121.951948,64.28,Colusa,5-021.70,Butte,828.0,Observation,Part of a nested/multi-completion well
+17N01W10A002M,Screen: 380-425 ft,39.343775,-121.951948,64.28,Colusa,5-021.70,Butte,475.0,Observation,Part of a nested/multi-completion well
+17N01W10A003M,Screen: 148-158 ft,39.343775,-121.951948,64.28,Colusa,5-021.70,Butte,204.0,Observation,Part of a nested/multi-completion well
+17N01W10A004M,Screen: 88-98 ft,39.343775,-121.951948,64.28,Colusa,5-021.70,Butte,117.0,Observation,Part of a nested/multi-completion well
+17N01W20H001H,Screen: 25-30 ft,41.852247,-124.201582,19.89,Del Norte,1-001,Smith River Plain,30.0,Residential,Single Well
+17N01W27A001M,Screen: 430-510 ft,39.300987,-121.952991,66.61,Colusa,5-021.70,Butte,581.0,Observation,Part of a nested/multi-completion well
+17N01W27A002M,Screen: 260-270 ft,39.300987,-121.952991,66.61,Colusa,5-021.70,Butte,285.0,Observation,Part of a nested/multi-completion well
+17N01W27A003M,Screen: 160-170 ft,39.300987,-121.952991,66.61,Colusa,5-021.70,Butte,203.0,Observation,Part of a nested/multi-completion well
+17N02E25J001M,BWD MW1 A - Deep,39.2968077,-121.69035624,78.0,Sutter,5-021.62,Sutter,591.0,Observation,Part of a nested/multi-completion well
+17N02E25J002M,Screen: 170-210 ft,39.2968077,-121.69035624,78.0,Sutter,5-021.62,Sutter,370.0,Observation,Part of a nested/multi-completion well
+17N02E25J003M,BWD MW1 C - Shallow,39.2968077,-121.69035624,78.0,Sutter,5-021.62,Sutter,127.0,Observation,Part of a nested/multi-completion well
+17N02W09H002M,Screen: 779-800 ft,39.341681,-122.083787,67.0,Colusa,5-021.52,Colusa,806.0,Observation,Part of a nested/multi-completion well
+17N02W09H003M,Screen: 460-520 ft,39.341681,-122.083787,67.0,Colusa,5-021.52,Colusa,578.0,Observation,Part of a nested/multi-completion well
+17N02W09H004M,Screen: 250-260 ft,39.341681,-122.083787,67.0,Colusa,5-021.52,Colusa,302.0,Observation,Part of a nested/multi-completion well
+17N02W09H005M,Screen: 440-812 ft,39.341631,-122.083817,67.0,Colusa,5-021.52,Colusa,840.0,Irrigation,Single Well
+17N03E26A003M,HC-1,39.304207,-121.596904,87.27,Yuba,5-021.60,North Yuba,566.0,Observation,Single Well
+17N03E26A004M,HC-2A,39.304387,-121.5969,87.5,Yuba,5-021.60,North Yuba,73.0,Observation,Part of a nested/multi-completion well
+17N03E26A005M,HC-2B,39.304387,-121.5969,87.5,Yuba,5-021.60,North Yuba,207.0,Observation,Part of a nested/multi-completion well
+17N03E26A006M,HC-2C,39.304387,-121.5969,87.5,Yuba,5-021.60,North Yuba,491.0,Observation,Part of a nested/multi-completion well
+18N01E21L001M,Screen: Unknown,39.39723,-121.864922,67.0,Butte,5-021.70,Butte,,Irrigation,Single Well
+18N01E35L001M,Screen: 816-836 ft,39.367445,-121.827879,70.0,Butte,5-021.70,Butte,840.0,Observation,Single Well
+18N01W02E001M,Screen: 719-729 ft,39.4419,-121.9433,78.5,Glenn,5-021.70,Butte,760.0,Observation,Part of a nested/multi-completion well
+18N01W02E002M,Screen: 450-460 ft,39.4419,-121.9433,78.5,Glenn,5-021.70,Butte,492.0,Observation,Part of a nested/multi-completion well
+18N01W02E003M,Screen: 110-120 ft,39.4419,-121.9433,78.5,Glenn,5-021.70,Butte,200.0,Observation,Part of a nested/multi-completion well
+18N02W18D001M,Screen: 975-985 ft,39.420773,-122.134145,82.43,Glenn,5-021.52,Colusa,996.0,Observation,Part of a nested/multi-completion well
+18N02W18D002M,Screen: 620-680 ft,39.420773,-122.134145,82.43,Glenn,5-021.52,Colusa,693.0,Observation,Part of a nested/multi-completion well
+18N02W18D003M,Screen: 510-520 ft,39.420773,-122.134145,82.43,Glenn,5-021.52,Colusa,543.0,Observation,Part of a nested/multi-completion well
+18N02W18D004M,Screen: 246-256 ft,39.420773,-122.134145,82.43,Glenn,5-021.52,Colusa,266.0,Observation,Part of a nested/multi-completion well
+18N04E19D001M,Wyandotte TSS- Deep,39.4051218,-121.5736171,124.871,Butte,5-021.69,Wyandotte Creek,744.0,Observation,Part of a nested/multi-completion well
+18N04E19D002M,Wyandotte TSS- Int,39.4051218,-121.5736171,124.926,Butte,5-021.69,Wyandotte Creek,594.0,Observation,Part of a nested/multi-completion well
+18N04E19D003M,Wyandotte TSS- S,39.4051218,-121.5736171,124.951,Butte,5-021.69,Wyandotte Creek,220.0,Observation,Part of a nested/multi-completion well
+18S23E07N001M,GKGSA-02 Upper,36.37232,-119.52888,256.01,Kings,5-022.11,Kaweah,240.0,Observation,Part of a nested/multi-completion well
+18S23E07N002M,GKGSA-02 Middle,36.37232,-119.52888,256.01,Kings,5-022.11,Kaweah,420.0,Observation,Part of a nested/multi-completion well
+18S23E07N003M,GKGSA-02 Lower,36.37232,-119.52888,256.01,Kings,5-022.11,Kaweah,756.0,Observation,Part of a nested/multi-completion well
+19N01E35B001M,Screen: 85-135 ft,39.463547,-121.827619,86.5,Butte,5-021.70,Butte,156.0,Observation,Part of a nested/multi-completion well
+19N01E35B002M,Screen: 930-950 ft,39.463439,-121.82775,86.5,Butte,5-021.70,Butte,980.0,Observation,Part of a nested/multi-completion well
+19N01E35B003M,Screen: 490-510 ft,39.463439,-121.82775,86.5,Butte,5-021.70,Butte,523.0,Observation,Part of a nested/multi-completion well
+19N01W22D004M,Screen: 780-790 ft,39.49270183,-121.9648084,87.38,Glenn,5-021.70,Butte,820.0,Observation,Part of a nested/multi-completion well
+19N01W22D005M,Screen: 520-530 ft,39.49270183,-121.9648084,87.38,Glenn,5-021.70,Butte,555.0,Observation,Part of a nested/multi-completion well
+19N01W22D006M,Screen: 340-350 ft,39.49270183,-121.9648084,87.38,Glenn,5-021.70,Butte,380.0,Observation,Part of a nested/multi-completion well
+19N01W22D007M,Screen: 80-90 ft,39.49270183,-121.9648084,87.38,Glenn,5-021.70,Butte,120.0,Observation,Part of a nested/multi-completion well
+19N01W32E003M,Screen: 45-310 ft,39.457237,-122.001585,89.26,Glenn,5-021.52,Colusa,332.0,Irrigation,Single Well
+19N02E07K002M,Screen: 560-570 ft,39.511803,-121.787962,102.7,Butte,5-021.70,Butte,,Observation,Part of a nested/multi-completion well
+19N02E07K003M,Screen: 330-340 ft,39.511803,-121.787962,102.7,Butte,5-021.70,Butte,368.0,Observation,Part of a nested/multi-completion well
+19N02E07K004M,Screen: 140-150 ft,39.511803,-121.787962,102.7,Butte,5-021.70,Butte,192.0,Observation,Part of a nested/multi-completion well
+19N02E13Q001M,Screen: 130-210 ft,39.494417,-121.693126,119.88,Butte,5-021.70,Butte,221.0,Observation,Single Well
+19N02E13Q002M,Screen: 470-480 ft,39.494409,-121.693199,119.88,Butte,5-021.70,Butte,495.0,Observation,Part of a nested/multi-completion well
+19N02E13Q003M,Screen: 670-680 ft,39.494409,-121.693199,119.88,Butte,5-021.70,Butte,690.0,Observation,Part of a nested/multi-completion well
+19N02W08Q001M,Screen: 856-876 ft,39.5157,-122.112233,108.36,Glenn,5-021.52,Colusa,910.0,Observation,Part of a nested/multi-completion well
+19N02W08Q002M,Screen: 208-218 ft,39.5157,-122.112233,108.36,Glenn,5-021.52,Colusa,228.0,Observation,Part of a nested/multi-completion well
+19N02W08Q003M,Screen: 77-87 ft,39.5157,-122.112233,108.36,Glenn,5-021.52,Colusa,136.0,Observation,Part of a nested/multi-completion well
+19N02W33K001M,Screen: 160-260 ft,39.455965,-122.085433,87.41,Glenn,5-021.52,Colusa,260.0,Irrigation,Single Well
+19N04W14M002M,Screen: 45-55 ft,39.502267,-122.283723,185.83,Glenn,5-021.52,Colusa,65.0,Observation,Single Well
+19S23E30A001M,MKGSA-02 Upper,36.25434,-119.51058,230.7,Tulare,5-022.11,Kaweah,300.0,Observation,Part of a nested/multi-completion well
+19S23E30A002M,MKGSA-02 Middle,36.25434,-119.51058,230.7,Tulare,5-022.11,Kaweah,420.0,Observation,Part of a nested/multi-completion well
+19S23E30A003M,MKGSA-02 Lower,36.25434,-119.51058,230.7,Tulare,5-022.11,Kaweah,960.0,Observation,Part of a nested/multi-completion well
+20N01E02H003M,Screen: 70-180 ft,39.615756,-121.822158,132.34,Butte,5-021.57,Vina,201.0,Observation,Single Well
+20N01E13Q002M,Screen: Unknown,39.583073,-121.806862,122.0,Butte,5-021.70,Butte,,Irrigation,Single Well
+20N01E18L001M,Screen: 767-894 ft,39.577074,-121.908207,107.35,Butte,5-021.70,Butte,940.0,Observation,Part of a nested/multi-completion well
+20N01E18L002M,Screen: 509-562 ft,39.577063,-121.908277,107.35,Butte,5-021.70,Butte,,Observation,Part of a nested/multi-completion well
+20N01E18L003M,Screen: 98-108 ft,39.577063,-121.908277,107.35,Butte,5-021.70,Butte,173.0,Observation,Part of a nested/multi-completion well
+20N02E09G001M,Screen: 130-180 ft,39.615453,-121.739123,148.84,Butte,5-021.57,Vina,202.0,Observation,Single Well
+20N02E15H001M,Screen: 170-180 ft,39.589093,-121.730317,144.01,Butte,5-021.70,Butte,190.0,Observation,Single Well
+20N02E15H002M,Screen: 55-65- ft,39.589151,-121.730404,144.12,Butte,5-021.70,Butte,75.0,Observation,Single Well
+20N02E16P001M,Screen: Unknown,39.58305,-121.754047,131.83,Butte,5-021.70,Butte,466.0,Irrigation,Single Well
+20N02E24C001M,Screen: 124-134 ft,39.581199,-121.70257,157.75,Butte,5-021.57,Vina,155.0,Observation,Part of a nested/multi-completion well
+20N02E24C002M,Screen: 336-377 ft,39.581199,-121.70257,157.75,Butte,5-021.57,Vina,390.0,Observation,Part of a nested/multi-completion well
+20N02E24C003M,Screen: 484-505 ft,39.581199,-121.70257,157.75,Butte,5-021.57,Vina,520.0,Observation,Part of a nested/multi-completion well
+20N02W11A001M,Screen: 70-90 ft,39.608717,-122.045553,125.4,Glenn,5-021.52,Colusa,90.0,Observation,Part of a nested/multi-completion well
+20N02W11A002M,Screen: 140-160 ft,39.608717,-122.045553,125.4,Glenn,5-021.52,Colusa,160.0,Observation,Part of a nested/multi-completion well
+20N02W11A003M,Screen: 490-510 ft,39.608717,-122.045553,125.4,Glenn,5-021.52,Colusa,510.0,Observation,Part of a nested/multi-completion well
+20N02W18R005M,Screen: 920-980 ft,39.585509,-122.116998,131.38,Glenn,5-021.52,Colusa,1020.0,Observation,Part of a nested/multi-completion well
+20N02W18R006M,Screen: 635-655 ft,39.585509,-122.116998,131.38,Glenn,5-021.52,Colusa,706.0,Observation,Part of a nested/multi-completion well
+20N02W18R007M,Screen: 450-526 ft,39.585509,-122.116998,131.38,Glenn,5-021.52,Colusa,535.0,Observation,Part of a nested/multi-completion well
+20N02W18R008M,Screen: 140-180 ft,39.585509,-122.116998,131.38,Glenn,5-021.52,Colusa,201.0,Observation,Part of a nested/multi-completion well
+20N02W25F001M,Screen: 940-960 ft,39.55949358,-122.0326337,102.2,Glenn,5-021.52,Colusa,1000.0,Observation,Part of a nested/multi-completion well
+20N02W25F002M,Screen: 420-470 ft,39.559495,-122.032609,102.2,Glenn,5-021.52,Colusa,513.0,Observation,Part of a nested/multi-completion well
+20N02W25F003M,Screen: 190-260 ft,39.559495,-122.032609,102.2,Glenn,5-021.52,Colusa,283.0,Observation,Part of a nested/multi-completion well
+20N02W25F004M,Screen: 55-65 ft,39.559495,-122.032609,102.2,Glenn,5-021.52,Colusa,85.0,Observation,Part of a nested/multi-completion well
+20N02W33B001M,Screen: 100-320 ft,39.549598,-122.08387,105.41,Glenn,5-021.52,Colusa,326.0,Observation,Single Well
+20N03E31M001M,Screen: 130-180 ft,39.54458,-121.687321,133.02,Butte,5-021.57,Vina,201.0,Observation,Single Well
+20N03E33L001M,Screen: Unknown,39.543565,-121.646642,151.33,Butte,5-021.57,Vina,101.0,Other,Single Well
+20N03W07E001M,Screen: 984-1014 ft,39.604892,-122.249484,179.175,Glenn,5-021.52,Colusa,1030.0,Observation,Part of a nested/multi-completion well
+20N03W07E002M,Screen: 616-636 ft,39.604892,-122.249484,179.175,Glenn,5-021.52,Colusa,664.0,Observation,Part of a nested/multi-completion well
+20N03W07E003M,Screen: 380-485 ft,39.604892,-122.249484,179.175,Glenn,5-021.52,Colusa,515.0,Observation,Part of a nested/multi-completion well
+20N03W07E004M,Screen: 118-128 ft,39.604892,-122.249484,179.175,Glenn,5-021.52,Colusa,160.0,Observation,Part of a nested/multi-completion well
+20S21E02J002M,GKGSA-01 Upper,36.21492,-119.65521,191.71,Kings,5-022.11,Kaweah,160.0,Observation,Part of a nested/multi-completion well
+20S21E02J003M,GKGSA-01 Middle,36.21492,-119.65521,191.71,Kings,5-022.11,Kaweah,240.0,Observation,Part of a nested/multi-completion well
+20S21E02J004M,GKGSA-01 Lower,36.21492,-119.65521,191.71,Kings,5-022.11,Kaweah,450.0,Observation,Part of a nested/multi-completion well
+20S21E02J005M,GKGSA-01 Deep,36.21492,-119.65521,191.71,Kings,5-022.11,Kaweah,658.0,Observation,Part of a nested/multi-completion well
+20S23E21K001M,MKGSA-01 Upper,36.17377,-119.47984,220.96,Tulare,5-022.11,Kaweah,310.0,Observation,Part of a nested/multi-completion well
+20S23E21K002M,MKGSA-01 Middle,36.17377,-119.47984,220.96,Tulare,5-022.11,Kaweah,450.0,Observation,Part of a nested/multi-completion well
+20S23E21K003M,MKGSA-01 Lower,36.17377,-119.47984,220.96,Tulare,5-022.11,Kaweah,960.0,Observation,Part of a nested/multi-completion well
+21N01E08K002M,Screen: Unknown,39.6891,-121.8854,146.04,Butte,5-021.70,Butte,,Irrigation,Single Well
+21N01E13L002M,CSU Chico Farm Deep,39.6734804,-121.8144029,179.85,Butte,5-021.57,Vina,771.0,Observation,Part of a nested/multi-completion well
+21N01E13L003M,CSU CHICO FARM INTER,39.6734804,-121.8144029,179.85,Butte,5-021.57,Vina,574.0,Observation,Part of a nested/multi-completion well
+21N01E13L004M,CSU CHICO FARM SHALL,39.6734804,-121.8144029,179.85,Butte,5-021.57,Vina,353.0,Observation,Part of a nested/multi-completion well
+21N01E27B001M,Screen: Unknown,39.652738,-121.852487,149.34,Butte,5-021.57,Vina,517.0,Irrigation,Single Well
+21N01E28F001M,Screen: Unknown,39.648986,-121.872517,142.35,Butte,5-021.57,Vina,173.0,Irrigation,Single Well
+21N01W05D001M,Screen: 783-1227 ft,39.709957,-122.008121,152.58,Glenn,5-021.52,Colusa,1300.0,Irrigation,Single Well
+21N01W11A001M,Screen: 810-1280 ft,39.69433298,-121.94095952,129.3,Butte,5-021.70,Butte,1311.0,Observation,Part of a nested/multi-completion well
+21N01W11A002M,Screen: 125-185 ft,39.69433298,-121.94095952,129.3,Butte,5-021.70,Butte,200.0,Observation,Part of a nested/multi-completion well
+21N01W11A003M,Screen: 30-50 ft,39.69433298,-121.94095952,129.3,Butte,5-021.70,Butte,104.0,Observation,Part of a nested/multi-completion well
+21N01W24B001M,Screen: 800-820 ft,39.665515,-121.925035,127.06,Butte,5-021.70,Butte,,Irrigation,Single Well
+21N01W31H001M,Screen: 800-1240 ft,39.682255,-122.011685,145.48,Glenn,5-021.52,Colusa,1300.0,Irrigation,Single Well
+21N01W35K002M,Screen: 75-135 ft,39.6301,-121.9407,114.36,Butte,5-021.70,Butte,,Irrigation,Single Well
+21N02E18C001M,Screen: 770-880 ft,39.681959,-121.796978,189.07,Butte,5-021.57,Vina,914.0,Observation,Part of a nested/multi-completion well
+21N02E18C002M,Screen: 360-620 ft,39.681959,-121.796978,189.07,Butte,5-021.57,Vina,701.0,Observation,Part of a nested/multi-completion well
+21N02E18C003M,Screen: 130-200 ft,39.681959,-121.796978,189.07,Butte,5-021.57,Vina,240.0,Observation,Part of a nested/multi-completion well
+21N02E26E003M,Screen: 610-620 ft,39.646778,-121.726248,182.27,Butte,5-021.57,Vina,660.0,Observation,Part of a nested/multi-completion well
+21N02E26E004M,Screen: 400-484 ft,39.646778,-121.726248,18.27,Butte,5-021.57,Vina,518.0,Observation,Part of a nested/multi-completion well
+21N02E26E005M,Screen: 265-290 ft,39.646778,-121.726248,182.27,Butte,5-021.57,Vina,315.0,Observation,Part of a nested/multi-completion well
+21N02E26E006M,Screen: 105-150 ft,39.646778,-121.726248,182.27,Butte,5-021.57,Vina,179.0,Observation,Part of a nested/multi-completion well
+21N02E30L001M,Screen: Unknown,39.642219,-121.799417,159.33,Butte,5-021.57,Vina,317.0,Residential,Single Well
+21N02W01F001M,Screen: 547-557 ft,39.704336,-122.038614,160.88,Glenn,5-021.52,Colusa,600.0,Observation,Part of a nested/multi-completion well
+21N02W01F002M,Screen: 297-307 ft,39.704336,-122.038614,160.88,Glenn,5-021.52,Colusa,385.0,Observation,Part of a nested/multi-completion well
+21N02W01F003M,Screen: 109-119 ft,39.704328,-122.038559,160.88,Glenn,5-021.52,Colusa,124.0,Observation,Part of a nested/multi-completion well
+21N02W01F004M,Screen: 55-65 ft,39.704328,-122.038559,160.88,Glenn,5-021.52,Colusa,75.0,Observation,Part of a nested/multi-completion well
+21N02W04G002M,Screen: 928-938 ft,39.703325,-122.091003,178.41,Glenn,5-021.52,Colusa,964.0,Observation,Part of a nested/multi-completion well
+21N02W04G003M,Screen: 673-703 ft,39.703325,-122.091003,178.41,Glenn,5-021.52,Colusa,715.0,Observation,Part of a nested/multi-completion well
+21N02W04G004M,Screen: 269-279 ft,39.703325,-122.091003,178.41,Glenn,5-021.52,Colusa,289.0,Observation,Part of a nested/multi-completion well
+21N02W04G005M,Screen: 57-67 ft,39.703325,-122.091003,178.41,Glenn,5-021.52,Colusa,99.0,Observation,Part of a nested/multi-completion well
+21N02W05M001M,Screen: 442-452 ft,39.700787,-122.120764,188.93,Glenn,5-021.52,Colusa,490.0,Observation,Part of a nested/multi-completion well
+21N02W05M002M,Screen: 122-132 ft,39.700787,-122.120764,188.93,Glenn,5-021.52,Colusa,153.0,Observation,Part of a nested/multi-completion well
+21N02W05M003M,Screen: 44-54 ft,39.700787,-122.120764,188.93,Glenn,5-021.52,Colusa,75.0,Observation,Part of a nested/multi-completion well
+21N02W05M004M,Screen: 36-56 ft,39.700787,-122.120764,191.83,Glenn,5-021.52,Colusa,85.0,Unknown,Unknown
+21N02W05M005M,Screen: 30-35 ft,39.700787,-122.120764,190.62,Glenn,5-021.52,Colusa,76.0,Unknown,Unknown
+21N02W25L001M,Screen: Unknown,39.6423,-122.0366,142.39,Glenn,5-021.52,Colusa,,Irrigation,Single Well
+21N02W33M001M,Screen: 869-890 ft,39.629906,-122.100662,149.0,Glenn,5-021.52,Colusa,929.0,Observation,Part of a nested/multi-completion well
+21N02W33M002M,Screen: 540-550 ft,39.629906,-122.100662,149.0,Glenn,5-021.52,Colusa,577.0,Observation,Part of a nested/multi-completion well
+21N02W33M003M,Screen: 140-150 ft,39.629906,-122.100662,149.0,Glenn,5-021.52,Colusa,171.0,Observation,Part of a nested/multi-completion well
+21N02W36A001M,Screen: 190-600 ft,39.635511,-122.033062,135.39,Glenn,5-021.52,Colusa,720.0,Irrigation,Single Well
+21N02W36A002M,Screen: 120-140 ft,39.635511,-122.033062,135.39,Glenn,5-021.52,Colusa,155.0,Observation,Single Well
+21N03E32B001M,Screen: Unknown,39.639578,-121.663376,238.43,Butte,5-021.57,Vina,57.0,Irrigation,Single Well
+21N03W01R002M,Screen: 235-245 ft,39.6963,-122.1406,203.32,Glenn,5-021.52,Colusa,255.0,Observation,Single Well
+21N03W01R003M,Screen: 590-1310 ft,39.696348,-122.140542,203.53,Glenn,5-021.52,Colusa,1360.0,Irrigation,Single Well
+21N03W23C001M,Screen: 55-75 ft,39.66763156,-122.1697472,200.35,Glenn,5-021.52,Colusa,110.0,Unknown,Unknown
+21N03W23D001M,Screen: 363-373 ft,39.667156,-122.177342,204.76,Glenn,5-021.52,Colusa,420.0,Observation,Part of a nested/multi-completion well
+21N03W23D002M,Screen: 142-170 ft,39.667156,-122.177342,204.76,Glenn,5-021.52,Colusa,191.0,Observation,Part of a nested/multi-completion well
+21N03W23D003M,Screen: 42-72 ft,39.667156,-122.177342,204.76,Glenn,5-021.52,Colusa,84.0,Observation,Part of a nested/multi-completion well
+21N03W23D004M,Screen: 48-68 ft,39.667503,-122.176598,205.07,Glenn,5-021.52,Colusa,80.0,Unknown,Unknown
+21N03W23D005M,Screen: 46-66 ft,39.66697,-122.176876,203.07,Glenn,5-021.52,Colusa,92.0,Unknown,Unknown
+21N03W31R002M,Screen: Unknown,39.624656,-122.234998,185.46,Glenn,5-021.52,Colusa,410.0,Unknown,Unknown
+21N03W31R003M,Screen: Unknown,39.624656,-122.234998,185.46,Glenn,5-021.52,Colusa,565.0,Unknown,Unknown
+21N03W31R004M,Screen: Unknown,39.624656,-122.234998,185.46,Glenn,5-021.52,Colusa,240.0,Unknown,Unknown
+21N03W31R005M,Screen: Unknown,39.624656,-122.234998,185.46,Glenn,5-021.52,Colusa,120.0,Unknown,Unknown
+21N03W34Q002M,Screen: 929-959 ft,39.624339,-122.187178,166.65,Glenn,5-021.52,Colusa,1020.0,Observation,Part of a nested/multi-completion well
+21N03W34Q003M,Screen: 620-690 ft,39.624339,-122.187178,166.65,Glenn,5-021.52,Colusa,720.0,Observation,Part of a nested/multi-completion well
+21N03W34Q004M,Screen: 58-68 ft,39.624339,-122.187178,166.65,Glenn,5-021.52,Colusa,80.0,Observation,Part of a nested/multi-completion well
+21N04W12A001M,Screen: 595-605 ft,39.697104,-122.253457,247.88,Glenn,5-021.52,Colusa,640.0,Observation,Part of a nested/multi-completion well
+21N04W12A002M,Screen: 247-257 ft,39.697104,-122.253457,247.88,Glenn,5-021.52,Colusa,278.0,Observation,Part of a nested/multi-completion well
+21N04W12A003M,Screen: 955-1050 ft,39.697092,-122.253305,247.5,Glenn,5-021.52,Colusa,1080.0,Observation,Part of a nested/multi-completion well
+21N04W12A004M,Screen: 520-640 ft,39.697092,-122.253305,247.5,Glenn,5-021.52,Colusa,659.0,Observation,Part of a nested/multi-completion well
+21S25E06K001M,LTRID TSS U,36.1307,-119.31281,256.86,Tulare,5-022.13,Tule,290.0,Observation,Part of a nested/multi-completion well
+21S25E06K002M,LTRID TSS M,36.1307,-119.31281,256.86,Tulare,5-022.13,Tule,815.0,Observation,Part of a nested/multi-completion well
+21S25E06K003M,LTRID TSS L,36.1307,-119.31281,256.86,Tulare,5-022.13,Tule,1480.0,Observation,Part of a nested/multi-completion well
+22N01E28J001M,Screen: 460-559 ft,39.731678,-121.864995,178.87,Butte,5-021.57,Vina,660.0,Observation,Part of a nested/multi-completion well
+22N01E28J003M,Screen: 200-279 ft,39.731678,-121.864995,178.29,Butte,5-021.57,Vina,320.0,Observation,Part of a nested/multi-completion well
+22N01E28J005M,Screen: 740-800 ft,39.731678,-121.864995,178.89,Butte,5-021.57,Vina,948.0,Observation,Part of a nested/multi-completion well
+22N01E32E004M,Screen: Unknown,39.718967,-121.898284,150.94,Butte,5-021.70,Butte,,Residential,Single Well
+22N01E35E001M,Screen: 101-372 ft,39.718223,-121.843211,182.33,Butte,5-021.57,Vina,656.0,Irrigation,Single Well
+22N01W05M001M,Screen: Unknown,39.787113,-122.010001,151.48,Butte,5-021.57,Vina,200.0,Irrigation,Single Well
+22N01W19K005M,Screen: 920-1230 ft,39.747504,-122.022112,155.94,Glenn,5-021.51,Corning,1300.0,Irrigation,Single Well
+22N01W29N001M,Screen: 859-1135 ft,39.72627,-122.010524,146.25,Glenn,5-021.51,Corning,1204.0,Observation,Part of a nested/multi-completion well
+22N01W29N002M,Screen: 549-641 ft,39.72627,-122.010524,146.25,Glenn,5-021.51,Corning,670.0,Observation,Part of a nested/multi-completion well
+22N01W29N003M,Screen: 189-380 ft,39.72627,-122.010524,146.25,Glenn,5-021.51,Corning,400.0,Observation,Part of a nested/multi-completion well
+22N01W29N004M,Screen: 99-109 ft,39.72627,-122.010524,146.25,Glenn,5-021.51,Corning,120.0,Observation,Part of a nested/multi-completion well
+22N02E30C002M,Screen: 90-190 ft,39.738267,-121.798145,243.63,Butte,5-021.57,Vina,203.0,Observation,Single Well
+22N02W01N001M,Screen: 812-1050 ft,39.783564,-122.046138,159.21,Glenn,5-021.51,Corning,1100.0,Observation,Part of a nested/multi-completion well
+22N02W01N002M,Screen: 698-708 ft,39.783564,-122.046138,159.21,Glenn,5-021.51,Corning,730.0,Observation,Part of a nested/multi-completion well
+22N02W01N003M,Screen: 209-367 ft,39.783564,-122.046138,159.0,Glenn,5-021.51,Corning,440.0,Observation,Part of a nested/multi-completion well
+22N02W01N004M,Screen: 70-80 ft,39.783564,-122.046138,159.21,Glenn,5-021.51,Corning,108.0,Observation,Part of a nested/multi-completion well
+22N02W02J001M,Screen: 800-1300 ft,39.787447,-122.049408,164.7,Glenn,5-021.51,Corning,1350.0,Irrigation,Single Well
+22N02W15C002M,Screen: 759-780 ft,39.763431,-122.077156,189.3,Glenn,5-021.51,Corning,825.0,Observation,Part of a nested/multi-completion well
+22N02W15C003M,Screen: 370-380 ft,39.763459,-122.077139,189.3,Glenn,5-021.51,Corning,422.0,Observation,Part of a nested/multi-completion well
+22N02W15C004M,Screen: 210-220 ft,39.763459,-122.077139,189.3,Glenn,5-021.51,Corning,258.0,Observation,Part of a nested/multi-completion well
+22N02W15C005M,Screen: 60-70 ft,39.763459,-122.077139,189.3,Glenn,5-021.51,Corning,100.0,Observation,Part of a nested/multi-completion well
+22N02W18C001M,Screen: 989-1029 ft,39.76820217,-122.1364444,223.44,Glenn,5-021.51,Corning,1062.0,Observation,Part of a nested/multi-completion well
+22N02W18C002M,Screen: 414-434 ft,39.76820217,-122.1364444,223.44,Glenn,5-021.51,Corning,482.0,Observation,Part of a nested/multi-completion well
+22N02W18C003M,Screen: 165-175 ft,39.76820217,-122.1364444,223.44,Glenn,5-021.51,Corning,188.0,Observation,Part of a nested/multi-completion well
+22N02W18C004M,Screen: 55-65 ft,39.768197,-122.13642,223.44,Glenn,5-021.51,Corning,90.0,Observation,Part of a nested/multi-completion well
+22N02W30H002M,Screen: 850-880 ft,39.73245,-122.123331,204.43,Glenn,5-021.52,Colusa,930.0,Observation,Part of a nested/multi-completion well
+22N02W30H003M,Screen: 130-260 ft,39.73245,-122.123331,204.43,Glenn,5-021.52,Colusa,275.0,Observation,Part of a nested/multi-completion well
+22N02W30H004M,Screen: 45-70 ft,39.73245,-122.123331,204.32,Glenn,5-021.52,Colusa,80.0,Observation,Part of a nested/multi-completion well
+22N02W30R001M,Screen: 710-916 ft,39.725267,-122.128059,207.43,Glenn,5-021.52,Colusa,1060.0,Irrigation,Single Well
+22N03W01R001M,Screen: 470-480 ft,39.78662,-122.145489,226.04,Glenn,5-021.51,Corning,525.0,Observation,Part of a nested/multi-completion well
+22N03W01R002M,Screen: 270-280 ft,39.78662,-122.145489,226.04,Glenn,5-021.51,Corning,314.0,Observation,Part of a nested/multi-completion well
+22N03W01R003M,Screen: 60-70 ft,39.78662,-122.145489,226.04,Glenn,5-021.51,Corning,103.0,Observation,Part of a nested/multi-completion well
+22N03W24E001M,Screen: 800-820 ft,39.747339,-122.155887,230.51,Glenn,5-021.52,Colusa,850.0,Observation,Part of a nested/multi-completion well
+22N03W24E002M,Screen: 128-178 ft,39.747339,-122.155887,230.51,Glenn,5-021.52,Colusa,195.0,Observation,Part of a nested/multi-completion well
+22N03W24E003M,Screen: 49-59 ft,39.747339,-122.155887,230.51,Glenn,5-021.52,Colusa,70.0,Observation,Part of a nested/multi-completion well
+22N03W28P001M,Screen: 390-400 ft,39.727914,-122.207145,258.22,Glenn,5-021.52,Colusa,430.0,Observation,Part of a nested/multi-completion well
+22N03W28P002M,Screen: 270-290 ft,39.727914,-122.207145,258.22,Glenn,5-021.52,Colusa,304.0,Observation,Part of a nested/multi-completion well
+22N03W28P003M,Screen: 30-50 ft,39.727914,-122.207145,258.22,Glenn,5-021.52,Colusa,69.0,Observation,Part of a nested/multi-completion well
+22N03W28P004M,Screen: 32-52 ft,39.727914,-122.207145,257.31,Glenn,5-021.52,Colusa,80.0,Unknown,Unknown
+22N04W01A001M,Corning Basin TSS-D,39.797404778,-122.252302896,318.27,Tehama,5-021.51,Corning,715.0,Observation,Part of a nested/multi-completion well
+22N04W01A002M,Corning Basin TSS-ID,39.797404778,-122.252302896,318.32,Tehama,5-021.51,Corning,550.0,Observation,Part of a nested/multi-completion well
+22N04W01A003M,Corning Basin TSS-IS,39.797404778,-122.252302896,318.3,Tehama,5-021.51,Corning,350.0,Observation,Part of a nested/multi-completion well
+22N04W01A004M,Corning Basin TSS-S,39.797404778,-122.252302896,318.36,Tehama,5-021.51,Corning,70.0,Observation,Part of a nested/multi-completion well
+22N04W27Q001M,LL Well 3,39.726584,-122.296304,327.53,Glenn,5-021.52,Colusa,380.0,Irrigation,Single Well
+22N15E11C001M,DMW 7d,39.77772277,-120.268246,4898.93,Plumas,5-012.01,Sierra Valley,1100.0,Observation,Part of a nested/multi-completion well
+22N15E11C002M,DMW 7id,39.77772277,-120.2682918,4898.86,Plumas,5-012.01,Sierra Valley,850.0,Observation,Part of a nested/multi-completion well
+22N15E11C003M,DMW 7i,39.77772277,-120.2682918,4898.73,Plumas,5-012.01,Sierra Valley,720.0,Observation,Part of a nested/multi-completion well
+22N15E11C004M,DMW 7is,39.77772277,-120.2682918,4898.67,Plumas,5-012.01,Sierra Valley,460.0,Observation,Part of a nested/multi-completion well
+22N15E11C005M,DMW 7s,39.77772277,-120.2682918,4898.54,Plumas,5-012.01,Sierra Valley,160.0,Observation,Part of a nested/multi-completion well
+22S28E06C003M,ETGSA-01 Lower,36.04853,-118.99319,476.79,Tulare,5-022.13,Tule,164.0,Observation,Single Well
+22S28E06C004M,ETGSA-01 Upper,36.04853,-118.99324,476.67,Tulare,5-022.13,Tule,55.0,Observation,Single Well
+23N01W10M001M,Screen: 90-200 ft,39.861936,-121.974546,187.38,Butte,5-021.57,Vina,220.0,Observation,Single Well
+23N01W28M002M,Screen: 791-1021 ft,39.818773,-121.991188,159.02,Butte,5-021.57,Vina,1044.0,Observation,Part of a nested/multi-completion well
+23N01W28M003M,Screen: 640-670 ft,39.818773,-121.991188,159.02,Butte,5-021.57,Vina,696.0,Observation,Part of a nested/multi-completion well
+23N01W28M004M,Screen: 120-165 ft,39.818773,-121.991188,159.02,Butte,5-021.57,Vina,207.0,Observation,Part of a nested/multi-completion well
+23N01W28M005M,Screen: 30-50 ft,39.818773,-121.991188,159.02,Butte,5-021.57,Vina,72.0,Observation,Part of a nested/multi-completion well
+23N01W31M001M,Screen: 1020-1030 ft,39.802772,-122.029408,154.75,Butte,5-021.57,Vina,1200.0,Observation,Part of a nested/multi-completion well
+23N01W31M002M,Screen: 590-600 ft,39.802772,-122.029408,154.75,Butte,5-021.57,Vina,616.0,Observation,Part of a nested/multi-completion well
+23N01W31M003M,Screen: 140-201 ft,39.802772,-122.029408,154.75,Butte,5-021.57,Vina,245.0,Observation,Part of a nested/multi-completion well
+23N01W31M004M,Screen: 66-76 ft,39.802772,-122.029408,154.75,Butte,5-021.57,Vina,106.0,Observation,Part of a nested/multi-completion well
+23N02W28N001M,Screen: 550-570 ft,39.811489,-122.102064,202.14,Tehama,5-021.51,Corning,970.0,Observation,Part of a nested/multi-completion well
+23N02W28N002M,Screen: 550-570 ft,39.811489,-122.102064,202.14,Tehama,5-021.51,Corning,580.0,Observation,Part of a nested/multi-completion well
+23N02W28N003M,Screen: 330-350 ft,39.811486,-122.102101,202.14,Tehama,5-021.51,Corning,370.0,Observation,Part of a nested/multi-completion well
+23N02W28N004M,Screen: 110-110 ft,39.811486,-122.102101,202.14,Tehama,5-021.51,Corning,205.0,Observation,Part of a nested/multi-completion well
+23N03W13C003M,Screen: 900-970 ft,39.8543,-122.153467,213.54,Tehama,5-021.51,Corning,980.0,Observation,Part of a nested/multi-completion well
+23N03W13C004M,Screen: 812-825 ft,39.8543,-122.153467,213.54,Tehama,5-021.51,Corning,835.0,Observation,Part of a nested/multi-completion well
+23N03W13C005M,Screen: 345-355 ft,39.8543,-122.153467,213.54,Tehama,5-021.51,Corning,381.0,Observation,Part of a nested/multi-completion well
+23N03W13C006M,Screen: 95-135 ft,39.8543,-122.153467,213.54,Tehama,5-021.51,Corning,182.0,Observation,Part of a nested/multi-completion well
+23N03W13C007M,Screen: 25-35 ft,39.8543,-122.153467,213.54,Tehama,5-021.51,Corning,71.0,Observation,Part of a nested/multi-completion well
+23N03W25M001M,Screen: 965-975 ft,39.81925,-122.159,235.62,Tehama,5-021.51,Corning,988.0,Observation,Part of a nested/multi-completion well
+23N03W25M002M,Screen: 470-500 ft,39.81925,-122.159,235.62,Tehama,5-021.51,Corning,513.0,Observation,Part of a nested/multi-completion well
+23N03W25M003M,Screen: 240-250 ft,39.81925,-122.159,235.62,Tehama,5-021.51,Corning,262.0,Observation,Part of a nested/multi-completion well
+23N03W25M004M,Screen: 120-130 ft,39.81925,-122.159,235.62,Tehama,5-021.51,Corning,130.0,Observation,Part of a nested/multi-completion well
+23S25E13E001M,PIDGSA-01U,35.929895,-119.23266,291.97,Tulare,5-022.13,Tule,280.0,Observation,Part of a nested/multi-completion well
+23S25E13E002M,PIDGSA-01L,35.929895,-119.23266,291.97,Tulare,5-022.13,Tule,1015.0,Observation,Part of a nested/multi-completion well
+24N01W04L001M,Screen: 188-520 ft,39.962981,-121.988839,322.41,Tehama,5-021.56,Los Molinos,520.0,Irrigation,Unknown
+24N01W04M001M,Screen: 620-920 ft,39.962467,-121.994654,312.41,Tehama,5-021.56,Los Molinos,960.0,Irrigation,Single Well
+24N01W05G001M,Screen: 130-490 ft,39.96552,-122.000431,304.41,Tehama,5-021.56,Los Molinos,490.0,Irrigation,Single Well
+24N01W05J001M,Screen: Unknown,39.963509,-121.995328,312.41,Tehama,5-021.56,Los Molinos,178.0,Residential,Single Well
+24N01W05J003M,Screen: 295-335 ft,39.963278,-121.995462,312.41,Tehama,5-021.56,Los Molinos,385.0,Observation,Part of a nested/multi-completion well
+24N01W05J004M,Screen: 650-722 ft,39.963278,-121.995462,310.0,Tehama,5-021.56,Los Molinos,760.0,Observation,Part of a nested/multi-completion well
+24N01W05K001M,Screen: Unknown,39.961492,-122.004195,290.41,Tehama,5-021.56,Los Molinos,260.0,Irrigation,Single Well
+24N01W05Q003M,Screen: 310-330 ft,39.956729,-122.003131,289.41,Tehama,5-021.56,Los Molinos,415.0,Observation,Part of a nested/multi-completion well
+24N01W05Q004M,Screen: 700-790 ft,39.956729,-122.003131,289.41,Tehama,5-021.56,Los Molinos,840.0,Observation,Part of a nested/multi-completion well
+24N01W05R002M,Screen: Unknown,39.95675,-121.995642,295.0,Tehama,5-021.56,Los Molinos,160.0,Residential,Unknown
+24N01W06J002M,Screen: 290-300 ft,39.962048,-122.017114,272.41,Tehama,5-021.56,Los Molinos,317.0,Observation,Single Well
+24N02W01L001M,Screen: 350-450- ft,39.961965,-122.03913,253.42,Tehama,5-021.56,Los Molinos,471.0,Observation,Part of a nested/multi-completion well
+24N02W01L002M,Screen: 750-840- ft,39.961965,-122.03913,253.42,Tehama,5-021.56,Los Molinos,862.0,Observation,Part of a nested/multi-completion well
+24N02W01R001M,Screen: 640-690- ft,39.958006,-122.029578,251.41,Tehama,5-021.56,Los Molinos,,Observation,Single Well
+24N02W01R002M,Screen: 788-843 ft,39.958006,-122.029578,251.41,Tehama,5-021.56,Los Molinos,880.0,Observation,Part of a nested/multi-completion well
+24N02W03B001M,Screen: 152-368 ft,39.970291,-122.074517,204.42,Tehama,5-021.56,Los Molinos,368.0,Irrigation,Single Well
+24N02W12P001M,Screen: 164-359 ft,39.945556,-122.039923,228.41,Tehama,5-021.56,Los Molinos,370.0,Observation,Part of a nested/multi-completion well
+24N02W12P002M,Screen: 760-850 ft,39.945556,-122.039923,228.41,Tehama,5-021.56,Los Molinos,870.0,Observation,Part of a nested/multi-completion well
+24N02W24D002M,Screen: 979-989 ft,39.925145,-122.043564,212.41,Tehama,5-021.56,Los Molinos,1040.0,Observation,Part of a nested/multi-completion well
+24N02W24D003M,Screen: 731-741 ft,39.925145,-122.043564,212.41,Tehama,5-021.56,Los Molinos,804.0,Observation,Part of a nested/multi-completion well
+24N02W24D004M,Screen: 346-356 ft,39.925145,-122.043564,212.41,Tehama,5-021.56,Los Molinos,397.0,Observation,Part of a nested/multi-completion well
+24N02W27G001M,Screen: 939-949 ft,39.90775,-122.072131,182.42,Tehama,5-021.56,Los Molinos,940.0,Observation,Part of a nested/multi-completion well
+24N02W27G002M,Screen: 495-505 ft,39.90775,-122.072131,182.42,Tehama,5-021.56,Los Molinos,560.0,Observation,Part of a nested/multi-completion well
+24N02W27G003M,Screen: 168-178 ft,39.90775,-122.072131,182.42,Tehama,5-021.56,Los Molinos,209.0,Observation,Part of a nested/multi-completion well
+24N02W27G004M,Screen: 64-74 ft,39.90775,-122.072131,182.42,Tehama,5-021.56,Los Molinos,93.0,Observation,Part of a nested/multi-completion well
+24N02W29N003M,Screen: 200-290 ft,39.899609,-122.122728,212.45,Tehama,5-021.51,Corning,388.0,Observation,Part of a nested/multi-completion well
+24N02W29N004M,Screen: 590-710 ft,39.899609,-122.122728,212.45,Tehama,5-021.51,Corning,741.0,Observation,Part of a nested/multi-completion well
+24N03W15A001M,Corning Yrd CWT- D,39.94085,-122.182325,280.8,Tehama,5-021.51,Corning,880.0,Observation,Part of a nested/multi-completion well
+24N03W15A002M,Corning Yrd CWT- ID,39.94085,-122.182325,280.9,Tehama,5-021.51,Corning,650.0,Observation,Part of a nested/multi-completion well
+24N03W15A003M,Corning Yrd CWT- IS,39.94085,-122.182325,281.0,Tehama,5-021.51,Corning,350.0,Observation,Part of a nested/multi-completion well
+24N03W15A004M,Corning Yrd CWT- S,39.94085,-122.182325,281.2,Tehama,5-021.51,Corning,220.0,Observation,Part of a nested/multi-completion well
+24N03W29Q001M,Screen: 130-360 ft,39.903046,-122.224557,314.18,Tehama,5-021.51,Corning,372.0,Observation,Part of a nested/multi-completion well
+24N03W29Q002M,Screen: 490-550 ft,39.903046,-122.224557,314.18,Tehama,5-021.51,Corning,575.0,Observation,Part of a nested/multi-completion well
+24N03W29Q003M,Screen: 650-790 ft,39.903046,-122.224557,314.18,Tehama,5-021.51,Corning,844.0,Observation,Part of a nested/multi-completion well
+24N04W07F003M,TSS Red Bluff-D,39.95219001,-122.361879,460.1,Tehama,5-021.50,Red Bluff,930.0,Observation,Part of a nested/multi-completion well
+24N04W07F004M,TSS Red Bluff-ID,39.95219,-122.361879,460.06,Tehama,5-021.50,Red Bluff,660.0,Observation,Part of a nested/multi-completion well
+24N04W07F005M,TSS Red Bluff-IS,39.95219,-122.361879,459.96,Tehama,5-021.50,Red Bluff,310.0,Observation,Part of a nested/multi-completion well
+24N04W07F006M,TSS Red Bluff-S,39.95219,-122.361879,459.85,Tehama,5-021.50,Red Bluff,170.0,Observation,Part of a nested/multi-completion well
+24N17E13J001M,LAS_13J001M,39.9286,-120.0197,4432.52,Lassen,6-104,Long Valley,148.0,Observation,Part of a nested/multi-completion well
+24N17E13J002M,LAS_13J002M,39.9286,-120.0197,4432.22,Lassen,6-104,Long Valley,51.0,Observation,Part of a nested/multi-completion well
+25N01W32P001M,Screen: 209-256 ft,39.973278,-122.006864,303.41,Tehama,5-021.56,Los Molinos,330.0,Observation,Part of a nested/multi-completion well
+25N01W32P002M,Screen: 440-510 ft,39.973278,-122.006864,303.41,Tehama,5-021.56,Los Molinos,530.0,Observation,Part of a nested/multi-completion well
+25N01W32P003M,Screen: 650-660 ft,39.973278,-122.006864,303.41,Tehama,5-021.56,Los Molinos,720.0,Observation,Part of a nested/multi-completion well
+25N01W34N002M,Screen: 207-217 ft,39.973967,-121.97482,366.43,Tehama,5-021.56,Los Molinos,263.0,Observation,Part of a nested/multi-completion well
+25N01W34N003M,Screen: 625-680 ft,39.973967,-121.97482,366.43,Tehama,5-021.56,Los Molinos,743.0,Observation,Part of a nested/multi-completion well
+25N03W11B001M,Screen: 150-180 ft,40.042815,-122.166514,252.1,Tehama,5-021.50,Red Bluff,255.0,Observation,Part of a nested/multi-completion well
+25N03W11B002M,Screen: 680-750 ft,40.042815,-122.166514,252.03,Tehama,5-021.50,Red Bluff,789.0,Observation,Part of a nested/multi-completion well
+25N03W11B003M,Screen: 940-960 ft,40.042815,-122.166514,252.05,Tehama,5-021.50,Red Bluff,1000.0,Observation,Part of a nested/multi-completion well
+25N05W13P002M,TEH_13P002M,40.016368023,-122.381840799,466.47,Tehama,5-021.50,Red Bluff,915.0,Observation,Part of a nested/multi-completion well
+25N05W13P003M,TEH_13P003M,40.016371196,-122.38096639,466.24,Tehama,5-021.50,Red Bluff,575.0,Observation,Part of a nested/multi-completion well
+25N05W13P004M,TEH_13P004M,40.01637315,-122.3809656,465.88,Tehama,5-021.50,Red Bluff,300.0,Observation,Part of a nested/multi-completion well
+25N05W13P005M,TEH_13P005M,40.0163724,-122.3809669,465.35,Tehama,5-021.50,Red Bluff,190.0,Observation,Part of a nested/multi-completion well
+25N13E36F001M,TC01,39.980439,-120.47905204,5492.01,Plumas,5-058,Clover Valley,7.0,Observation,Single Well
+25N13E36F002M,TC02,39.978946,-120.479587,5486.96,Plumas,5-058,Clover Valley,24.0,Observation,Single Well
+25N13E36F003M,TC03,39.977934,-120.477751,5481.49,Plumas,5-058,Clover Valley,28.0,Observation,Single Well
+25N13E36F004M,TC10,39.979637,-120.478203,5485.51,Plumas,5-058,Clover Valley,24.0,Observation,Single Well
+25N13E36G001M,TC09,39.977363,-120.475535,548.139,Plumas,5-058,Clover Valley,12.0,Observation,Single Well
+25N13E36K001M,TC06,39.97544,-120.475782,5464.22,Plumas,5-058,Clover Valley,14.0,Observation,Single Well
+25N13E36K002M,TC07,39.974172,-120.471742,5458.2,Plumas,5-058,Clover Valley,16.0,Observation,Single Well
+25N13E36K003M,TC08,39.976526,-120.473529,5463.73,Plumas,5-058,Clover Valley,7.0,Observation,Single Well
+25N13E36L001M,TC04,39.977357,-120.479798,547.558,Plumas,5-058,Clover Valley,18.0,Observation,Single Well
+25N13E36L002M,TC05,39.976538,-120.477381,5469.24,Plumas,5-058,Clover Valley,21.0,Observation,Single Well
+26N02W14G001M,Screen: Unknown,40.1076,-122.063,314.43,Tehama,5-021.56,Los Molinos,394.0,Irrigation,Single Well
+26N02W22E003M,Dye Creek CWT- D,40.09211014,-122.085546,256.0,Tehama,5-021.56,Los Molinos,820.0,Observation,Part of a nested/multi-completion well
+26N02W22E004M,Dye Creek CWT- ID,40.09211014,-122.085546,256.2,Tehama,5-004,Big Valley,680.0,Observation,Part of a nested/multi-completion well
+26N02W22E005M,Dye Creek CWT- IS,40.09211014,-122.085546,256.3,Tehama,5-021.56,Los Molinos,280.0,Observation,Part of a nested/multi-completion well
+26N02W22E006M,Dye Creek CWT- S,40.09211014,-122.085546,256.7,Tehama,5-021.56,Los Molinos,60.0,Observation,Part of a nested/multi-completion well
+26N02W22G002M,Screen: Unknown,40.0937,-122.0759,270.22,Tehama,5-021.56,Los Molinos,146.0,Observation,Single Well
+26N02W22G003M,Screen: Unknown,40.0938,-122.0761,270.12,Tehama,5-021.56,Los Molinos,546.0,Observation,Single Well
+26N02W26F001M,Screen: Unknown,40.08043,-122.065966,318.0,Tehama,5-021.56,Los Molinos,780.0,Unknown,Single Well
+27N03W15N004M,Screen: 680-750 ft,40.187439,-122.198787,276.92,Tehama,5-021.54,Antelope,770.0,Observation,Part of a nested/multi-completion well
+27N03W15N005M,Screen: 510-550 ft,40.187439,-122.198787,276.76,Tehama,5-021.54,Antelope,570.0,Observation,Part of a nested/multi-completion well
+27N03W15N006M,Screen: 290-340 ft,40.187439,-122.198787,276.59,Tehama,5-021.54,Antelope,360.0,Observation,Part of a nested/multi-completion well
+27N03W15N007M,Screen: 110-210 ft,40.187439,-122.198787,276.43,Tehama,5-021.54,Antelope,230.0,Observation,Part of a nested/multi-completion well
+27N03W15N008M,Screen: 65-85 ft,40.187439,-122.198787,276.29,Tehama,5-021.54,Antelope,95.0,Observation,Part of a nested/multi-completion well
+27N14E26E003M,Screen: 205-218 ft,40.170859,-120.37601,4263.37,Lassen,6-004,Honey Lake Valley,221.0,Observation,Single Well
+27N14E26E004M,Screen: 110-130 ft,40.170859,-120.37601,4263.32,Lassen,6-004,Honey Lake Valley,150.0,Observation,Single Well
+27S38E32C001M,IWVGSA-01D,35.549043,-117.910705,0.0,Kern,6-054,Indian Wells Valley,1120.0,Observation,Part of a nested/multi-completion well
+27S38E32C002M,IWVGSA-01I,35.549043,-117.910705,0.0,Kern,6-054,Indian Wells Valley,897.0,Observation,Part of a nested/multi-completion well
+27S38E32C003M,IWVGSA-01S,35.549043,-117.910705,0.0,Kern,6-054,Indian Wells Valley,490.0,Observation,Part of a nested/multi-completion well
+29N03W18M001M,Screen: 125-234 ft,40.36722,-122.254839,418.54,Tehama,5-006.01,Bowman,234.0,Irrigation,Single Well
+29N04W03R002M,Screen: 740-880 ft,40.392931,-122.294453,457.84,Shasta,5-006.03,Anderson,917.0,Observation,Part of a nested/multi-completion well
+29N04W03R003M,Screen: 515-660 ft,40.392931,-122.294453,457.84,Shasta,5-006.03,Anderson,696.0,Observation,Part of a nested/multi-completion well
+29N04W03R004M,Screen: 380-390 ft,40.392931,-122.294453,457.84,Shasta,5-006.03,Anderson,438.0,Observation,Part of a nested/multi-completion well
+29N04W03R005M,Screen: 128-188 ft,40.392931,-122.294453,457.84,Shasta,5-006.03,Anderson,254.0,Observation,Part of a nested/multi-completion well
+29N04W03R006M,Screen: 40-60 ft,40.392931,-122.294453,457.84,Shasta,5-006.03,Anderson,76.0,Observation,Part of a nested/multi-completion well
+29N04W20A001M,Screen: 755-855 ft,40.358539,-122.333847,451.48,Tehama,5-006.01,Bowman,876.0,Observation,Part of a nested/multi-completion well
+29N04W20A002M,Screen: 360-430 ft,40.358539,-122.333847,451.48,Tehama,5-006.01,Bowman,451.0,Observation,Part of a nested/multi-completion well
+29N04W20A003M,Screen: 154-189 ft,40.358539,-122.333847,451.48,Tehama,5-006.01,Bowman,194.0,Observation,Part of a nested/multi-completion well
+29N04W20A004M,Screen: 50-60 ft,40.358539,-122.333847,451.48,Tehama,5-006.01,Bowman,76.0,Observation,Part of a nested/multi-completion well
+30N03W18B001M,Screen: 30-50 ft,40.461329,-122.244303,400.12,Shasta,5-006.03,Anderson,55.0,Observation,Single Well
+30N03W18B002M,Screen: 110-160 ft,40.461331,-122.244265,400.1,Shasta,5-006.03,Anderson,160.0,Observation,Single Well
+30N03W30Q002M,Screen: 70-100 ft,40.419478,-122.246346,445.09,Shasta,5-006.03,Anderson,103.0,Observation,Single Well
+30N03W32P003M,Screen: 60-100 ft,40.40599656,-122.2300515,434.07,Shasta,5-006.03,Anderson,101.0,Observation,Single Well
+30N04W10H002M,Screen: 20-40 ft,40.4707,-122.2954,410.47,Shasta,5-006.03,Anderson,40.0,Observation,Single Well
+30N04W10H003M,Screen: 100-150 ft,40.4707,-122.2954,410.57,Shasta,5-006.03,Anderson,150.0,Observation,Single Well
+30N04W10H004M,10H004M shallow,40.47052,-122.295136,418.8,Shasta,5-006.03,Anderson,55.0,Observation,Single Well
+30N04W10H005M,ACID 10H005M,40.470478,-122.295155,418.7,Shasta,5-006.03,Anderson,160.0,Observation,Single Well
+30N04W22F002M,Screen: 70-110 ft,40.441159,-122.301553,447.86,Shasta,5-006.03,Anderson,113.0,Observation,Single Well
+30N04W22F003M,Screen: 170-200 ft,40.441123,-122.301538,447.64,Shasta,5-006.03,Anderson,202.0,Observation,Single Well
+30N04W22F004M,Screen: 480-520 ft,40.44123583,-122.3017765,447.8,Shasta,5-006.03,Anderson,540.0,Observation,Single Well
+30N04W23M001M,Screen: 80-110 ft,40.43773944,-122.288336,472.33,Shasta,5-006.03,Anderson,114.0,Observation,Single Well
+30N04W23M002M,Screen: 140-180 ft,40.43775711,-122.2882768,472.67,Shasta,5-006.03,Anderson,201.0,Observation,Single Well
+30N04W25D003M,Screen: 100-120 ft,40.43101428,-122.2731396,472.47,Shasta,5-006.03,Anderson,122.0,Observation,Single Well
+30N04W25D004M,Screen: 150-200 ft,40.43105944,-122.2731626,472.07,Shasta,5-006.03,Anderson,210.0,Observation,Single Well
+31N04W22P001M,31N04W22P001M,40.5223917,-122.3091367,503.341,Shasta,5-006.04,Enterprise,660.0,Observation,Part of a nested/multi-completion well
+31N04W22P002M,31N04W22P002M,40.5223931,-122.3091373,503.207,Shasta,5-006.04,Enterprise,530.0,Observation,Part of a nested/multi-completion well
+31N04W22P003M,31N04W22P003M,40.5223923,-122.3091349,503.077,Shasta,5-006.04,Enterprise,300.0,Observation,Part of a nested/multi-completion well
+31N04W22P004M,31N04W22P004M,40.5223936,-122.3091356,502.977,Shasta,5-006.04,Enterprise,125.0,Observation,Part of a nested/multi-completion well
+31N04W29R004M,R04M,40.5074,-122.3383,444.6,Shasta,5-006.04,Enterprise,210.0,Observation,Single Well
+31N04W29R006M,R06M,40.5073,-122.3383,444.6,Shasta,5-006.04,Enterprise,325.0,Unknown,Single Well
+38N05E35P001M,38N05E35P001M,41.0805,-121.3651,3318.7,Shasta,5-005,Fall River Valley,21.0,Observation,Single Well
+38N07E23C001M,BVMW 5-1,41.121876,-121.133878,4129.05,Lassen,5-004,Big Valley,540.0,Observation,Single Well
+38N07E23C002M,BVMW 5-2,41.121946,-121.133878,4128.92,Lassen,5-004,Big Valley,115.0,Observation,Single Well
+38N07E23C003M,BVMW 5-3,41.121181,-121.136652,4131.73,Lassen,5-004,Big Valley,85.0,Observation,Single Well
+38N07E23F001M,BVMW 5-4,41.120554,-121.134001,4130.23,Lassen,5-004,Big Valley,90.0,Observation,Single Well
+39N02W06Q001M,Puff Meister,41.24756,-122.12692,3240.0,Siskiyou,,,259.0,Residential,Single Well
+39N07E13J001M,BVMW 3-3,41.215719,-121.10509,4164.36,Modoc,5-004,Big Valley,50.0,Observation,Single Well
+39N07E13J002M,BVMW 3-4,41.215723,-121.105409,4165.31,Modoc,5-004,Big Valley,50.0,Observation,Single Well
+39N07E18M001M,BVMW 3-1,41.21694,-121.1049557,4164.75,Modoc,5-004,Big Valley,185.0,Observation,Single Well
+39N07E18M002M,BVMW 3-2,41.217008,-121.104957,4164.92,Modoc,5-004,Big Valley,40.0,Observation,Single Well
+39N07E22M002M,BVMW 4-1,41.202928,-121.1587,4152.73,Modoc,5-004,Big Valley,425.0,Observation,Single Well
+39N07E22M003M,BVMW 4-4,41.20354,-121.157843,4161.65,Modoc,5-004,Big Valley,93.0,Observation,Single Well
+39N07E22M004M,BVMW 4-3,41.202991,-121.157859,4152.66,Modoc,5-004,Big Valley,80.0,Observation,Single Well
+39N07E22M005M,BVMW 4-2,41.202935,-121.15879,4153.06,Modoc,5-004,Big Valley,74.0,Observation,Single Well
+39N08E15A001M,BVMW 2-4,41.211997,-121.029379,4209.95,Modoc,5-004,Big Valley,60.0,Observation,Single Well
+39N08E23D001M,BVMW 2-1,41.211851,-121.028608,4216.51,Modoc,5-004,Big Valley,250.0,Observation,Single Well
+39N08E23D002M,BVMW 2-2,41.211838,-121.028552,4216.77,Modoc,5-004,Big Valley,70.0,Observation,Single Well
+39N08E23D003M,BVMW 2-3,41.210951,-121.028682,4214.26,Modoc,5-004,Big Valley,70.0,Observation,Single Well
+39N09E29K001M,BVMW 1-1,41.188025,-120.959864,4214.17,Modoc,5-004,Big Valley,265.0,Observation,Single Well
+39N09E29K002M,BVMW 1-2,41.188095,-120.959791,4214.54,Modoc,5-004,Big Valley,52.0,Observation,Single Well
+39N09E29K003M,BVMW 1-3,41.187786,-120.959347,4218.5,Modoc,5-004,Big Valley,50.0,Observation,Single Well
+39N09E29K004M,BVMW 1-4,41.188034,-120.959004,4218.39,Modoc,5-004,Big Valley,49.0,Observation,Single Well
+40N04Q06L001M,Betty,41.34121,-122.35776,3790.0,Siskiyou,,,145.0,Residential,Single Well
+40N04W05N001M,Serendipity,41.33738,-122.34346,3695.0,Siskiyou,,,122.0,Residential,Single Well
+40N04W09G001M,Bifang,41.32846,-122.31547,3740.0,Siskiyou,,,,Residential,Single Well
+40N04W09G002M,Ohio,41.32732,-122.31425,3725.0,Siskiyou,,,127.0,Residential,Single Well
+40N04W09G003M,ClearWater2,41.32832,-122.31178,3760.0,Siskiyou,,,205.0,Residential,Single Well
+40N04W09H001M,Slodki,41.32996,-122.31088,3830.0,Siskiyou,,,205.0,Residential,Single Well
+40N04W09J003M,Life,41.32545,-122.31066,3720.0,Siskiyou,,,105.0,Residential,Single Well
+40N04W10E001M,Deep Water,41.32747,-122.30427,3820.0,Siskiyou,,,,Residential,Single Well
+40N05W01J001M,Vita,41.33852,-122.3658,3770.0,Siskiyou,,,124.0,Residential,Single Well
+43N06W28B001M,43N06W28B001M,41.550591,-122.544563,2799.38,Siskiyou,1-004,Shasta Valley,440.0,Observation,Part of a nested/multi-completion well
+43N06W28B002M,43N06W28B002M,41.550591,-122.544563,2799.3,Siskiyou,1-004,Shasta Valley,380.0,Observation,Part of a nested/multi-completion well
+43N06W28B003M,43N06W28B003M,41.550591,-122.544563,2799.24,Siskiyou,1-004,Shasta Valley,310.0,Observation,Part of a nested/multi-completion well
+43N06W28B004M,43N06W28B004M,41.550591,-122.544563,2799.11,Siskiyou,1-004,Shasta Valley,220.0,Observation,Part of a nested/multi-completion well
+46N05E21M001M,Screen: 32-325 ft,41.811383,-121.41462,4033.5,Modoc,1-002.01,Tulelake,325.0,Irrigation,Single Well
+46N05E22D001M,Screen: 114-554 ft,41.817406,-121.395484,4033.97,Modoc,1-002.01,Tulelake,571.0,Irrigation,Single Well
+47N01W27D001M,BVA1,41.89439222,-121.9748336,4243.63,Siskiyou,1-003,Butte Valley,1095.0,Observation,Part of a nested/multi-completion well
+47N01W27D002M,BVA2,41.89439222,-121.9748336,4243.81,Siskiyou,1-003,Butte Valley,870.0,Observation,Part of a nested/multi-completion well
+47N01W27D003M,BVA3,41.89439222,-121.9748336,4244.0,Siskiyou,1-003,Butte Valley,235.0,Observation,Part of a nested/multi-completion well
+47N01W27D004M,BVA4,41.89439222,-121.9748336,4244.17,Siskiyou,1-003,Butte Valley,120.0,Observation,Part of a nested/multi-completion well
+48N04E13K001M,Screen: 935-1557 ft,41.997039,-121.45195,4046.95,Siskiyou,1-002.01,Tulelake,1570.0,Irrigation,Single Well
+48N04E14M001M,Screen: 36-127 ft,41.997213,-121.484248,4045.74,Siskiyou,1-002.01,Tulelake,127.0,Stockwatering,Single Well
+48N04E15K001M,Screen: 1212-1433 ft,41.997792,-121.493084,4046.06,Siskiyou,1-002.01,Tulelake,1440.0,Irrigation,Single Well
+48N04E16M001M,Screen: 1053-1537 ft,41.997942,-121.525125,4052.2,Siskiyou,1-002.01,Tulelake,1710.0,Irrigation,Single Well
+48N04E16P003M,Screen: Unknown,41.996289,-121.515967,4047.0,Siskiyou,1-002.01,Tulelake,1200.0,Industrial,Unknown
+48N04E18J001M,Screen: 1260-1540 ft,41.997975,-121.545492,4052.49,Siskiyou,1-002.01,Tulelake,1550.0,Irrigation,Single Well
+48N04E30F001M,Screen: 25-142 ft,41.97259403,-121.5574037,4048.03,Siskiyou,1-002.01,Tulelake,142.0,Industrial,Single Well
+48N04E30F002M,Screen: 260-700 ft,41.972031,-121.556709,4043.5,Siskiyou,1-002.01,Tulelake,740.0,Irrigation,Single Well
+48N04E30L001M,Screen: Unknown,41.969267,-121.5586,4041.0,Siskiyou,1-002.01,Tulelake,50.0,Residential,Unknown
+48N04E35C001M,Screen: 2561-2761 ft,41.960784,-121.481067,4037.6,Siskiyou,1-002.01,Tulelake,2790.0,Other,Single Well
+48N05E13R003M,Screen: Unknown,41.996453,-121.341703,4048.3,Modoc,1-002.01,Tulelake,,Other,Single Well
+48N05E14R001M,Screen: 814-1537 ft,41.996253,-121.360836,4064.71,Modoc,1-002.01,Tulelake,2030.0,Irrigation,Single Well
+48N05E16P001M,Screen: 823-2108 ft,41.996186,-121.410553,4048.83,Modoc,1-002.01,Tulelake,2600.0,Irrigation,Single Well
+48N05E25Q001M,Screen: 5-110 ft,41.965217,-121.345209,4103.59,Modoc,1-002.01,Tulelake,110.0,Stockwatering,Single Well
+48N05E26D001M,Screen: 1250-1802 ft,41.97617,-121.372667,4045.53,Modoc,1-002.01,Tulelake,1810.0,Irrigation,Single Well
+48N05E36A002M,Screen: 428-528 ft,41.961436,-121.341139,4138.48,Modoc,1-002.01,Tulelake,528.0,Irrigation,Single Well
+FHM4,FHM4,0.0,0.0,5121.79,Modoc,,,,,
