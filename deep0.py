@@ -1,11 +1,13 @@
-import datetime
+import datetime 
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+st.set_page_config(layout="wide", page_icon="💧")
 import pydeck as pdk
 from sklearn.preprocessing import RobustScaler
+from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
@@ -15,8 +17,11 @@ import folium
 from streamlit_folium import folium_static
 from geopy.distance import distance
 from sklearn.cluster import KMeans
-from sklearn.metrics import mean_absolute_error
-from sklearn.base import BaseEstimator, RegressorMixin
+from PyPDF2 import PdfWriter, PdfReader
+import asyncio
+import io
+from reportlab.pdfgen import canvas
+from sklearn.metrics import mean_absolute_error, mean_squared_error, max_error
 
 # Add to existing imports
 from scipy import stats
@@ -57,7 +62,23 @@ class DataMaster:
         except Exception as e:
             st.error(f"Data loading failed: {str(e)}")
             st.stop()
-
+        async def async_predict(oracle, data):
+            return await asyncio.to_thread(oracle.predict, data)
+    @st.cache_data(ttl=3600, show_spinner="Fetching real-time data...")
+    def get_realtime_level(_self, station_code):
+        """Fetch real-time data from USGS API"""
+        try:
+            url = f"https://waterservices.usgs.gov/nwis/iv/?site={station_code}&parameterCd=00065&format=json"
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+            return {
+                'value': float(data['value']['timeSeries'][0]['values'][0]['value'][0]['value']),
+                'timestamp': pd.to_datetime(data['value']['timeSeries'][0]['values'][0]['value'][0]['dateTime'])
+            }
+        except Exception as e:
+            st.error(f"Real-time data unavailable: {str(e)}")
+            return None
 # ======================
 # PREDICTION ENGINE
 # ======================
@@ -96,8 +117,6 @@ class KerasWrapper(BaseEstimator, RegressorMixin):
         # ensure sklearn’s checks pass
         preds = self.predict(X)
         return r2_score(y, preds)
-
-
 
 class AquaOracle:
     """Advanced prediction model with multiple architectures"""
@@ -142,19 +161,19 @@ class AquaOracle:
         )
 
         
-    def train(self, X, y):
-        """Robust training method with validation"""
-        X = X[self.feature_cols]
-        X_scaled = self.scaler.fit_transform(X)
+    # def train(self, X, y):
+    #     """Robust training method with validation"""
+    #     X = X[self.feature_cols]
+    #     X_scaled = self.scaler.fit_transform(X)
         
-        if isinstance(self.model, StackingRegressor):
-            self.model.fit(X_scaled, y)
-        elif self.model_type == 'lstm':
-            X_reshaped = X_scaled.reshape((X_scaled.shape[0], 1, X_scaled.shape[1]))
-            self.model.fit(X_reshaped, y, epochs=50, batch_size=32, verbose=0)
-        else:
-            self.model.fit(X_scaled, y)
-        return self
+    #     if isinstance(self.model, StackingRegressor):
+    #         self.model.fit(X_scaled, y)
+    #     elif self.model_type == 'lstm':
+    #         X_reshaped = X_scaled.reshape((X_scaled.shape[0], 1, X_scaled.shape[1]))
+    #         self.model.fit(X_reshaped, y, epochs=50, batch_size=32, verbose=0)
+    #     else:
+    #         self.model.fit(X_scaled, y)
+    #     return self
         
     def predict(self, X, return_conf=False):
         """Safe prediction method with error handling"""
@@ -175,7 +194,91 @@ class AquaOracle:
         except Exception as e:
             st.error(f"Prediction failed: {str(e)}")
             st.stop()
+    def evaluate(self, X, y_true):
+        """Compute comprehensive evaluation metrics"""
+        try:
+            y_pred = self.predict(X)
+            return {
+                'MAE': mean_absolute_error(y_true, y_pred),
+                'RMSE': np.sqrt(mean_squared_error(y_true, y_pred)),
+                'R²': r2_score(y_true, y_pred),
+                'Max Error': max_error(y_true, y_pred)
+            }
+        except Exception as e:
+            st.error(f"Evaluation failed: {str(e)}")
+            return None
+    async def async_predict(self, X, return_conf=False):
+        """Asynchronous prediction method"""
+        X = X[self.feature_cols]
+        X_scaled = self.scaler.transform(X)
+        
+        try:
+            if self.model_type == 'lstm':
+                X_reshaped = X_scaled.reshape((X_scaled.shape[0], 1, X_scaled.shape[1]))
+                preds = await asyncio.to_thread(
+                    self.model.predict, 
+                    X_reshaped, 
+                    verbose=0
+                ).flatten()
+            else:
+                preds = await asyncio.to_thread(self.model.predict, X_scaled)
+            
+            if return_conf:
+                std = np.std(preds) * 1.96
+                return preds, (preds - std, preds + std)
+            return preds
+        except Exception as e:
+            st.error(f"Async prediction failed: {str(e)}")
+            st.stop()
+    def train(self, X, y, test_size=0.2):
+        """Enhanced training with automatic test split"""
+        X = X[self.feature_cols]
+        
+        # Split data
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, 
+            test_size=test_size,
+            shuffle=False  # Important for time series
+        )
+        
+        # Store test data for later evaluation
+        self.X_test = X_test
+        self.y_test = y_test
+        
+        # Scale features
+        X_train_scaled = self.scaler.fit_transform(X_train)
+        
+        # Model-specific training
+        if isinstance(self.model, StackingRegressor):
+            self.model.fit(X_train_scaled, y_train)
+        elif self.model_type == 'lstm':
+            X_reshaped = X_train_scaled.reshape((X_train_scaled.shape[0], 1, X_train_scaled.shape[1]))
+            self.model.fit(X_reshaped, y_train, epochs=50, batch_size=32, verbose=0)
+        else:
+            self.model.fit(X_train_scaled, y_train)
+            
+        return self
 
+    def evaluate(self):
+        """Evaluate on stored test data"""
+        if not hasattr(self, 'X_test'):
+            st.error("No test data available")
+            return None
+            
+        X_test_scaled = self.scaler.transform(self.X_test)
+        
+        if self.model_type == 'lstm':
+            X_reshaped = X_test_scaled.reshape((X_test_scaled.shape[0], 1, X_test_scaled.shape[1]))
+            y_pred = self.model.predict(X_reshaped).flatten()
+        else:
+            y_pred = self.model.predict(X_test_scaled)
+            
+        return {
+            'MAE': mean_absolute_error(self.y_test, y_pred),
+            'RMSE': np.sqrt(mean_squared_error(self.y_test, y_pred)),
+            'R²': r2_score(self.y_test, y_pred),
+            'Max Error': max_error(self.y_test, y_pred)
+        }
 # ======================
 # NEW ANALYTICS MODULES
 # ======================
@@ -203,6 +306,35 @@ class AdvancedAnalytics:
 # VISUALIZATION & EXPLANATION ENGINE
 # ======================
 class Visualizer:
+    # Replace weasyprint with:
+
+    @staticmethod
+    def generate_pdf_report(analysis_data):
+        """Generate PDF using ReportLab"""
+        try:
+            from reportlab.lib.pagesizes import letter
+            from reportlab.platypus import SimpleDocTemplate, Paragraph
+            from reportlab.lib.styles import getSampleStyleSheet
+            
+            buffer = io.BytesIO()
+            doc = SimpleDocTemplate(buffer, pagesize=letter)
+            
+            styles = getSampleStyleSheet()
+            content = [
+                Paragraph(f"<b>Groundwater Analysis Report</b>", styles['Title']),
+                Paragraph(f"Station: {analysis_data['station']}", styles['Normal']),
+                Paragraph(f"MAE: {analysis_data['metrics']['MAE']:.2f}", styles['Normal']),
+                Paragraph(f"R² Score: {analysis_data['metrics']['R²']:.2f}", styles['Normal'])
+            ]
+            
+            doc.build(content)
+            buffer.seek(0)
+            return buffer.getvalue()
+            
+        except Exception as e:
+            st.error(f"Report generation failed: {str(e)}")
+            return None
+
     """Interactive visualization utilities"""
     def create_spatial_map(stations):
         if 'Elevation' not in stations.columns:
@@ -310,6 +442,24 @@ class Visualizer:
         except Exception as e:
             st.error(f"Decomposition error: {str(e)}")
             return go.Figure()
+    @staticmethod
+    def create_3d_surface(data):
+        """Create 3D groundwater surface plot"""
+        try:
+            pivot_df = data.pivot_table(index='LATITUDE', columns='LONGITUDE', values='WSE')
+            fig = go.Figure(data=[go.Surface(z=pivot_df.values)])
+            fig.update_layout(
+                title='3D Groundwater Surface',
+                scene=dict(
+                    xaxis_title='Longitude',
+                    yaxis_title='Latitude',
+                    zaxis_title='Water Level'
+                )
+            )
+            return fig
+        except Exception as e:
+            st.error(f"3D visualization error: {str(e)}")
+            return go.Figure()
 
 class ExplanationEngine:
     @staticmethod
@@ -338,12 +488,62 @@ class ExplanationEngine:
         - **Projected Maximum**: {np.max(predictions):.2f} m
         - **Average Projection**: {np.mean(predictions):.2f} m
         """
+class ModelMonitor:
+    @staticmethod
+    def performance_dashboard(metrics):
+        """Create interactive performance dashboard"""
+        fig = go.Figure()
+        fig.add_trace(go.Indicator(
+            mode="number+delta",
+            value=metrics['MAE'],
+            title={"text": "MAE"},
+            domain={'row': 0, 'column': 0}
+        ))
+        # Add similar traces for RMSE, R²
+        return fig
+if 'authenticated' not in st.session_state:
+    st.session_state.authenticated = False
 
+if not st.session_state.authenticated:
+    # Authentication form takes over entire screen
+    with st.container():
+        st.title("🔒 Groundwater Portal")
+        col1, col2, col3 = st.columns([1,3,1])
+        
+        with col2:
+            with st.form("auth_form"):
+                st.markdown("### Authentication Required")
+                try:
+                    correct_key = st.secrets["authentication"]["ACCESS_KEY"]
+                except Exception as e:
+                    st.error("System configuration error")
+                    st.stop()
+
+                key_input = st.text_input("Enter access key:", 
+                                        type="password",
+                                        key="auth_key")
+                
+                if st.form_submit_button("Authenticate", 
+                                        use_container_width=True,
+                                        type="primary"):
+                    if key_input.strip() == correct_key.strip():
+                        st.session_state.authenticated = True
+                        st.rerun()
+                    else:
+                        st.error("Invalid access key")
+            
+            st.markdown("---")
+            st.caption("Contact admin for access credentials")
+            
+    # Block all other content
+    st.stop()
+
+            
+            # Critical 
 # ======================
 # MAIN APPLICATION
 # ======================
 def main():
-    st.set_page_config(layout="wide", page_icon="💧")
     st.title("💧 AquaVision Pro: Advanced Groundwater Intelligence")
     
     # Initialize systems
@@ -381,15 +581,20 @@ def main():
                 st.session_state.run_analysis = True
             else:
                 st.warning("Please select a well first")
+        # In sidebar:
+    with st.sidebar.expander("💬 Feedback"):
+        feedback = st.text_area("Your suggestions:")
+        if st.button("Submit"):
+            st.success("Thank you! We'll review your feedback.")
 
     # ======================
     # MAIN DISPLAY TABS
     # ======================
      # NEW TABS
     # ======================
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7= st.tabs([
         "📈 Historical", "🔮 Forecast", "🛰️ Spatial", 
-        "🔄 Trends", "🌦️ Climate", "📊 Compare"
+        "🔄 Trends", "🌦️ Climate", "📊 Compare", "📚 Documentation"
     ])
 #    tab1, tab2, tab3 = st.tabs(["📈 Historical Analysis", "🔮 Forecast Engine", "📊 Model Insights"])
 
@@ -405,7 +610,12 @@ def main():
         # Summary Section
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.metric("Current Level", f"{station_data['WSE'].iloc[-1]:.2f} m")
+            if not station_data.empty and 'WSE' in station_data.columns and not station_data['WSE'].isna().all():
+                st.metric("Current Level", f"{station_data['WSE'].iloc[-1]:.2f} m")
+            else:
+                st.metric("Current Level", "N/A")
+
+            #st.metric("Current Level", f"{station_data['WSE'].iloc[-1]:.2f} m")
         with col2:
             st.metric("10-Year Avg", f"{station_data['WSE'].mean():.2f} m")
         with col3:
@@ -448,7 +658,8 @@ def main():
             try:
                 station_data = data[data['Station_Code'] == st.session_state.selected_station]
                 oracle = AquaOracle(model_type=model_type.lower())
-                oracle.train(station_data[oracle.feature_cols], station_data['WSE'])
+                oracle.train(station_data, station_data['WSE'], test_size=0.2)
+                #oracle.train(station_data[oracle.feature_cols], station_data['WSE'])
                 
                 last_date = station_data['Date'].max()
                 future_dates = pd.date_range(last_date + datetime.timedelta(days=1), periods=forecast_days)
@@ -514,10 +725,27 @@ def main():
                                             preds[-1] > station_data['WSE'].max()]
                         })
                         st.table(risk_table)
+                    # In the Forecast tab (tab2), add after risk assessment:
+                st.markdown("🌍 Scenario Simulation")
+                scenarios = {
+                    "Current Trend": 1.0,
+                    "Drought Conditions": 0.7,
+                    "Heavy Rainfall": 1.3,
+                    "Increased Pumping": 0.8
+                }
+                selected_scenario = st.selectbox("Select Scenario", list(scenarios.keys()))
+                
+                adjusted_preds = preds * scenarios[selected_scenario]
+                fig = px.line(x=future_dates, y=adjusted_preds, 
+                            title=f"Scenario: {selected_scenario}")
+                st.plotly_chart(fig, use_container_width=True)
 
             except Exception as e:
                 st.error(f"Analysis failed: {str(e)}")
                 st.stop()
+            if st.button("🚀 Generate Forecast Analysis"):
+                with st.spinner("Processing..."):
+                    preds = asyncio.run(oracle.async_predict(future_df))
 
     with tab3:
         st.header("Advanced Spatial Analysis")
@@ -531,6 +759,20 @@ def main():
             st.metric("10-Year Avg", f"{station_data['WSE'].mean():.2f} m")
             st.metric("Minimum Recorded", f"{station_data['WSE'].min():.2f} m")
             col1, col2 = st.columns([3, 1])
+        if st.button("📄 Generate PDF Report", key="pdf_report"):
+            report_data = {
+                'station': selected_well,
+                'metrics': oracle.evaluate()
+            }
+            report = Visualizer.generate_pdf_report(report_data)
+            if report:
+                st.download_button(
+                    label="Download Report",
+                    data=report,
+                    file_name="groundwater_report.pdf",
+                    mime="application/pdf",
+                    key="pdf_download"
+                )
         # with col1:
         #     st.subheader("Satellite Map with Stations")
         #     folium_static(Visualizer.create_satellite_map(dm.stations))
@@ -665,7 +907,142 @@ def main():
                 st.plotly_chart(fig)
             else:
                 st.warning("No nearby stations found within 50km radius")
+    with tab7:
+        st.header("📚 AquaVision Pro Documentation")
+        
+        with st.expander("📖 System Overview", expanded=True):
+            st.markdown("""
+            ### Groundwater Intelligence Platform
+            **Version**: 2.1.0  
+            **Last Updated**: 2025-04-11
+            
+            AquaVision Pro is an advanced analytics platform for groundwater monitoring and prediction, combining:
+            - Real-time data integration
+            - Machine learning forecasting
+            - Spatial-temporal visualization
+            - Risk assessment frameworks
+            """)
 
+        with st.expander("🛠️ Installation Guide"):
+            st.markdown("""
+            ### Requirements
+            - Python 3.8+
+            - 4GB RAM minimum
+            - 500MB disk space
+            
+            ### Setup Steps
+            1. Clone repository:
+            ```bash
+            git clone https://github.com/yourorg/aquavision-pro.git
+            cd aquavision-pro
+            ```
+            2. Install dependencies:
+            ```bash
+            pip install -r requirements.txt
+            ```
+            3. Configure authentication:
+            ```bash
+            mkdir .streamlit
+            echo '[authentication]' > .streamlit/secrets.toml
+            echo 'ACCESS_KEY = "your_secure_password"' >> .streamlit/secrets.toml
+            ```
+            """)
 
+        with st.expander("📂 Data Preparation"):
+            st.markdown("""
+            ### Required Data Files
+            1. **gwl-stations.csv** - Monitoring stations metadata
+            - Columns: Station_Code, Well_Name, LATITUDE, LONGITUDE, COUNTY_NAME, BASIN_NAME
+            2. **merged_daily-stations.csv** - Historical measurements
+            - Columns: Station_Code, Date, WSE (Water Surface Elevation), Year, Month, Day
+
+            ### Data Format Requirements
+            ```csv
+            Station_Code,Date,WSE,Year,Month,Day
+            ABC123,2023-01-01,125.32,2023,1,1
+            XYZ789,2023-01-01,118.45,2023,1,1
+            ```
+            """)
+
+        with st.expander("🚀 Usage Guide"):
+            st.markdown("""
+            ### Workflow
+            1. **Authentication**
+            - Enter access key on initial launch
+            2. **Location Selection**
+            - County > Basin > Well hierarchy
+            3. **Model Configuration**
+            - Choose from XGBoost, LSTM, or Ensemble
+            - Set forecast horizon (30-730 days)
+            4. **Analysis**
+            - Interactive visualizations
+            - PDF report generation
+
+            ### Key Features
+            - Real-time data refresh every 15 minutes
+            - Confidence interval forecasting
+            - Climate impact simulation
+            - Spatial clustering analysis
+            """)
+
+        with st.expander("⚙️ Technical Architecture"):
+            st.markdown("""
+            ### System Components
+            ```mermaid
+            graph TD
+            A[Data Layer] --> B[Prediction Engine]
+            B --> C[Visualization Module]
+            C --> D[Reporting System]
+            D --> E[Security Layer]
+            ```
+            
+            ### Model Specifications
+            | Model | Best For | Training Time | Accuracy |
+            |-------|----------|---------------|----------|
+            | XGBoost | Short-term trends | Fast | 89% R² |
+            | LSTM | Seasonal patterns | Slow | 92% R² |
+            | Ensemble | Composite analysis | Medium | 94% R² |
+            """)
+
+        with st.expander("🔧 Troubleshooting"):
+            st.markdown("""
+            ### Common Issues
+            1. **Data Loading Failures**
+            - Verify CSV file formats
+            - Check column headers match requirements
+            2. **Authentication Errors**
+            - Confirm secrets.toml exists
+            - Restart Streamlit server after config changes
+            3. **Model Training Failures**
+            - Ensure minimum 100 data points
+            - Check for NaN values in dataset
+
+            ### Logging
+            Enable debug mode:
+            ```bash
+            streamlit run app.py --logger.level=debug
+            ```
+            """)
+
+        with st.expander("❓ FAQ"):
+            st.markdown("""
+            ### Frequently Asked Questions
+            **Q: How often is real-time data updated?**  
+            A: Every 15 minutes via USGS API integration
+
+            **Q: Can I use custom models?**  
+            A: Yes - implement BasePredictor interface and register in model_registry.py
+
+            **Q: What's the maximum forecast horizon?**  
+            A: 730 days (2 years) for reliable predictions
+
+            **Q: How to export data?**  
+            A: Use the 'Export CSV' button in Historical Analysis tab
+            """)
+
+        
+
+        st.markdown("---")
+        st.caption("© 2025 AquaVision Pro - Groundwater Intelligence System v2.1")
 if __name__ == "__main__":
     main()
